@@ -6,8 +6,8 @@
     link="http://mfatech.org"
     version="0.1">
 
-  <group name="TFL" icon="styles/standard/transport/way/way_secondary.svg">
-    <item name="Cycle Lane / Track" icon="styles/standard/transport/way/way_secondary.svg"type="way">
+  <group name="TFL" icon="yes_32.png">
+    <item name="Cycle Lane / Track" icon="transport_bicycle.png"type="way">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Airspace" />
       <label text="Edit Airspace" />
       <space />
@@ -70,7 +70,7 @@
       <text key="lighting:color" text="Color" description="Color of ligthing" />
     </item>
 
-    <item name="Aerodrome" icon="styles/standard/transport/way/way_secondary.svg" type="relation,node">
+    <item name="Aerodrome" icon="transport_bicycle.png" type="relation,node">
       <key key="aerodrome" value="yes" />
       <label text="Edit Aerodrome" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Aerodrome" />
@@ -104,7 +104,7 @@
       <text key="comm:gnd" text="Ground freq." description="Ground freq." />
     </item>
 
-    <item name="VFR Reporting Point" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Crossing" icon="transport_bicycle.png">
       <key key="vfrreportingpoint" value="yes" />
       <label text="Edit VFR Reporting Point" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
