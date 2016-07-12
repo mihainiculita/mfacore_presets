@@ -31,6 +31,7 @@
       <combo key="height:upper:unit" text="Upper Height Unit" description="Lower Height Unit (feet, flight level, metres)" values="ft,fl,m"/>
       <combo key="height:upper:class" text="Upper Height Class" description="Lower Height Class (Above Mean Sea Level or Above Ground Level)" values="amsl,agl"/>
     </item>
+    
     <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <label text="Edit Navaid" />
@@ -49,6 +50,7 @@
       <text key="navaid:tacan" text="The TACAN freq. of this navaid" />
       <text key="navaid:ils" text="The ILS freq. of this navaid" />
     </item>
+    
     <item name="Crossing" icon="styles/standard/transport/way/way_secondary.svg">
       <label text="Edit Obstacle" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Obstacle" />
@@ -125,6 +127,7 @@
       <text key="comm:ctrl" text="CTRL freq." description="Frequency to the authority ascosiated with this control point." />
     </item>
   </group>
+  
   <group name="Points" icon="styles/standard/transport/way/way_secondary.svg">
     <item name="Sign / Symbol" icon="styles/standard/transport/way/way_secondary.svg">
       <key key="vfrreportingpoint" value="yes" />
