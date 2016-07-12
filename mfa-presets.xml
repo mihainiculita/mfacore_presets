@@ -6,7 +6,7 @@
     link="http://openaviationmap.org"
     version="0.0.2">
     
-  <group name="TFL" icon="styles/standard/transport/way/way_secondary.svg">
+  <group name="Lines" icon="styles/standard/transport/way/way_secondary.svg">
     <item name="Cycle Lane / Track" icon="styles/standard/transport/way/way_motorway.svg" type="closedway">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Airspace" />
       <label text="Edit Airspace" />
@@ -105,6 +105,49 @@
     </item>
 
     <item name="Sign / Symbol" icon="styles/standard/transport/way/way_secondary.svg">
+      <key key="vfrreportingpoint" value="yes" />
+      <label text="Edit VFR Reporting Point" />
+      <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
+      <space />
+
+      <!-- NAMES AND REF -->
+      <text key="name" text="Name" />
+      <text key="longname" text="Long name" />
+      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
+
+      <!-- HEIGHT -->
+      <text key="height" text="Height" description="Height (number)"/>
+      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
+      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
+
+      <!-- COMMUNICATION -->
+      <text key="comm:ctrl" text="CTRL freq." description="Frequency to the authority ascosiated with this control point." />
+    </item>
+  </group>
+  <group name="Points" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Sign / Symbol" icon="styles/standard/transport/way/way_secondary.svg">
+      <key key="vfrreportingpoint" value="yes" />
+      <label text="Edit VFR Reporting Point" />
+      <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
+      <space />
+
+      <!-- NAMES AND REF -->
+      <text key="name" text="Name" />
+      <text key="longname" text="Long name" />
+      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
+
+      <!-- HEIGHT -->
+      <text key="height" text="Height" description="Height (number)"/>
+      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
+      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
+
+      <!-- COMMUNICATION -->
+      <text key="comm:ctrl" text="CTRL freq." description="Frequency to the authority ascosiated with this control point." />
+    </item>
+    
+    <item name="Traffic calming" icon="styles/standard/transport/way/way_secondary.svg">
       <key key="vfrreportingpoint" value="yes" />
       <label text="Edit VFR Reporting Point" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
