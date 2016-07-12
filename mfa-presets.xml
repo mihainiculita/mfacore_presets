@@ -7,23 +7,15 @@
     version="0.0.2">
     
   <group name="Lines" icon="transport_bicycle.png">
-    <item name="CycLaTr" icon="transport_bicycle.png">
+    <item name="CycLaTrack" icon="transport_bicycle.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
-      <label text="Edit Navaid" />
+      <label text="Edit Cycle Lane/Track" />
       <space />
-      <!-- NAMES AND REF -->
-      <text key="name" text="Name" />
-      <text key="longname" text="Long name" />
-      <text key="ref"  text="Reference number" />
-      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
-
-      <!-- NAVAID SPECIFIC -->
-      <key key="navaid" value="yes" />
-      <text key="navaid:dme" text="The DME freq. of this navaid" />
-      <text key="navaid:vor" text="The VOR freq. of this navaid" />
-      <text key="navaid:ndb" text="The NDB freq. of this navaid" />
-      <text key="navaid:tacan" text="The TACAN freq. of this navaid" />
-      <text key="navaid:ils" text="The ILS freq. of this navaid" />
+      <text key="TYPE" text="Cycle Lane/Track" />
+      <text key="CLT_ID" text="Cycle Lane/Track ID" />
+      <text key="CLT_CARR"  text="On / Off Carriageway" />
+      <text key="CLT_SEGREG" text="Segregated lane / track" />
+      <key key="CLT_STEPP" text="Stepped lane / track" value="yes" />
     </item>
     
     <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
