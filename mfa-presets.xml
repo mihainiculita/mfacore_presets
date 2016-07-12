@@ -1,10 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Michael Niculita" version="0.1" shortdescription="TFL" description="TFL">
-  <group name="TFL">
-    <item name="Cycle Lane / Track" type="way">
-      <check key="CLT_SEGREG" text="Segregated lane / track" default="off" />
-      <check key="CLT_CARR" text="On / Off Carriageway" default="off" />
-      <text key="CLT_ID" text="Cycle Lane/Track ID" />
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+    author="Morten Olsen Lysgard"
+    description="Tags for the Open Aviation Map project. IMPORTANT: Do not use this preset for openSTREETmap. It's strictly for openAVIATIONmap. OSM does not want airspaces in their databases."
+    shortdescription="OpenAviationMap"
+    link="http://openaviationmap.org"
+    version="0.0.2">
+<!--
+    Pics have been derived from
+    http://de.wikipedia.org/wiki/Bildtafel_der_Verkehrszeichen_in_Deutschland (german street sign SVGs)
+    http://commons.wikimedia.org/wiki/Image:National_Park_Service_sample_pictographs.svg (various monochrome pictograms)
+    http://www.kde.org
+    http://openclipart.org/media/view/media/clip_art
+    http://www.sjjb.co.uk/mapicons/ (meanwhile in osm svn)
+-->
+<!--
+item:
+  name: the text to display
+  icon: the icon to display
+  - relative to the icon path
+  - URL's are also supported to allow remote icons (are cached locally)
+  type: the data types - way,node,relation,closedway (separated by comma)
+
+link: link to the relating map features website
+
+label: simple static text label
+  text: the text to display
+
+key: fixed key/value pair to be set
+  key: key to set
+  value: value to set
+
+text: text box
+  key: key to set
+  text: fixed label to display
+  default: default string to display
+  delete_if_empty: true/false
+  use_last_as_default: true/false/force
+
+combo: combo box, with multiple choices and possible to enter free form text
+  key: key to set
+  text: fixed label to display
+  values: comma separated list of values
+  display_values: comma separated list of values to be displayed instead of the
+                  database values, order and number must be equal to values
+  short_description: comma separated list of texts to be displayed below each
+                    display_value. (Only if it is not possible to describe 
+                    the entry in 2-3 words.) Instead of comma separeted list, you can
+                    also write it in the following form: 
+                        <short_description>first description</short_description>
+                                ...
+                        <short_description>last description</short_description>
+  default: default string to display
+  delete_if_empty: true/false
+  use_last_as_default: true/false/force
+
+multiselect: list of values from which zero or more can be selected
+  key: key to set
+  text: fixed label to display
+  delimiter: character that separates values (default: semicolon) - this
+             will also be used to separate selected values in the tag.
+  values: delimiter-separated list of values (delimiter can be escaped with backslash)
+  rows: specify the number of rows to display (default -1)
+  display_values: delimiter-separated list of values to be displayed instead of the
+                  database values, order and number must be equal to values
+  short_description: delimiter-separated list of texts to be displayed below each
+                    display_value. (Only if it is not possible to describe 
+                    the entry in 2-3 words.) Instead of a separated list, you can
+                    also write it in the following form: 
+                        <short_description>first description</short_description>
+                                ...
+                        <short_description>last description</short_description>
+  default: default string to display
+  delete_if_empty: true/false
+  use_last_as_default: true/false/force
+
+check: checkbox
+  key: key to set
+  text: fixed label to display
+  default: ticked on/off
+  delete_if_empty: true/false
+  value_on: the value to set when checked (default is "yes")
+  value_off: the value to set when unchecked (default is 'no')
+
+role: type to specify possible roles in relations
+  key: the role name used in relation
+  text: fixed label to display
+  requisite: "optional" or "required" (default is optional)
+  count: how often can the role occur (if not given unlimited number is assumed)
+  type: the data types - way,node,relation,closedway (separated by comma)
+
+For external files the <presets> should have following elements:
+- author           the author of the preset
+- version          a version number of some sort (e.g. creation date)
+- description      what is your preset meant to be
+- shortdescription very short description
+- link             a link to a helpful website (optional)
+- The fields description, shortdescription and link may also be localized (e.g. de.link)
+
+See also http://josm.openstreetmap.de/wiki/TaggingPresets.
+
+The fields "name", "text", "display_values" may also be localized (e.g. de.name).
+When translations of equal words but different meanings may conflict, a translation
+context should be specified. Use "name_context", "text_context" or "values_context"
+for this. The context should be a meaningful short description to help translators.
+
+In JOSM internally all "name", "text" and "display_values" are translated when
+no specific translation has been given in XML file. When no "display_values"
+are supplied, then "values" will be treated as "display_values" and translated instead.
+-->
+  <group name="OAM" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Airspace" icon="styles/standard/transport/way/way_motorway.svg" type="closedway">
+      <link href="http://wiki.openaviationmap.org/wiki/index.php/Airspace" />
+      <label text="Edit Airspace" />
+      <space />
+      <!-- NAMES AND REF -->
+      <text key="name" text="Name" />
+      <text key="longname" text="Long name" />
+      <text key="ref"  text="Reference number" />
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
+
+      <!-- AIRSPACE SPECIFIC -->
+      <key key="airspace" value="yes" />
+      <combo key="airspace:class" text="Airspace Class" values="A,B,C,D,E,F,G" />
+      <combo key="airspace:type" text="Airspace Type" values="TMA,CTR,FIR,ristricted,danger,ATZ,TFR" />
+
+
+      <!-- HEIGHT BOUNDS -->
+      <text key="height:lower" text="Lower Height" description="Lower Height (number)"/>
+      <combo key="height:lower:unit" text="Lower Height Unit" description="Lower Height Unit (feet, flight level, metres)" values="ft,fl,m"/>
+      <combo key="height:lower:class" text="Lower Height Class" description="Lower Height Class (Above Mean Sea Level or Above Ground Level)" values="amsl,agl"/>
+      <text key="height:upper" text="Upper Height" description="Lower Height (number)"/>
+      <combo key="height:upper:unit" text="Upper Height Unit" description="Lower Height Unit (feet, flight level, metres)" values="ft,fl,m"/>
+      <combo key="height:upper:class" text="Upper Height Class" description="Lower Height Class (Above Mean Sea Level or Above Ground Level)" values="amsl,agl"/>
+    </item>
+    <item name="Navaid" icon="styles/standard/transport/way/way_secondary.svg">
+      <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
+      <label text="Edit Navaid" />
+      <space />
+      <!-- NAMES AND REF -->
+      <text key="name" text="Name" />
+      <text key="longname" text="Long name" />
+      <text key="ref"  text="Reference number" />
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
+
+      <!-- NAVAID SPECIFIC -->
+      <key key="navaid" value="yes" />
+      <text key="navaid:dme" text="The DME freq. of this navaid" />
+      <text key="navaid:vor" text="The VOR freq. of this navaid" />
+      <text key="navaid:ndb" text="The NDB freq. of this navaid" />
+      <text key="navaid:tacan" text="The TACAN freq. of this navaid" />
+      <text key="navaid:ils" text="The ILS freq. of this navaid" />
+    </item>
+    <item name="Obstacle" icon="styles/standard/transport/way/way_secondary.svg">
+      <label text="Edit Obstacle" />
+      <link href="http://wiki.openaviationmap.org/wiki/index.php/Obstacle" />
+      <space />
+      <key key="obstacle" value="yes" />
+      <!-- NAMES AND REF -->
+      <text key="name" text="Name" />
+      <text key="longname" text="Long name" />
+      <text key="ref"  text="Reference number" />
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
+
+      <!-- HEIGHT -->
+      <text key="height" text="Height" description="Height (number)"/>
+      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
+      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
+
+      <!-- LIGHTING -->
+      <combo key="lighting" values="no,constant,flashing" text="Ligthing" description="Is and how is this obstacle lighted?"/>
+      <text key="lighting:color" text="Color" description="Color of ligthing" />
+    </item>
+
+    <item name="Aerodrome" icon="styles/standard/transport/way/way_secondary.svg" type="relation,node">
+      <key key="aerodrome" value="yes" />
+      <label text="Edit Aerodrome" />
+      <link href="http://wiki.openaviationmap.org/wiki/index.php/Aerodrome" />
+      <space />
+
+      <!-- NAMES AND REF -->
+      <text key="name" text="Name" />
+      <text key="longname" text="Long name" />
+      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
+
+      <!-- AERODROME CODES -->
+      <text key="icao" text="ICAO" description="The ICAO code of this aerodrome."/>
+      <text key="iata" text="IATA" description="The IATA code of this aerodrome."/>
+      <text key="ffalid" text="FFALID" description="The FFALID of this aerodrome."/>
+
+      <!-- HEIGHT -->
+      <text key="height" text="Height" description="Height (number)"/>
+      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
+      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
+
+      <!-- RUNWAY -->
+      <text key="runway:designator" text="Designator (Eg 12-30)" description="The directions the runway points rounded off to the 10th decimal degree."/>
+      <text key="runway:length" text="Length (meters)" description="The usable runway length, in metres."/>
+      <text key="runway:surface" text="Surface" description="The surface of the runway."/>
+
+      <!-- COMMUNICATION -->
+      <text key="comm:twr" text="Tower freq." description="Tower freq." />
+      <text key="comm:atis" text="ATIS freq." description="ATIS freq." />
+      <text key="comm:app" text="Approach freq." description="Approach freq." />
+      <text key="comm:gnd" text="Ground freq." description="Ground freq." />
+    </item>
+
+    <item name="VFR Reporting Point" icon="styles/standard/transport/way/way_secondary.svg">
+      <key key="vfrreportingpoint" value="yes" />
+      <label text="Edit VFR Reporting Point" />
+      <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
+      <space />
+
+      <!-- NAMES AND REF -->
+      <text key="name" text="Name" />
+      <text key="longname" text="Long name" />
+      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
+      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
+
+      <!-- HEIGHT -->
+      <text key="height" text="Height" description="Height (number)"/>
+      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
+      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
+
+      <!-- COMMUNICATION -->
+      <text key="comm:ctrl" text="CTRL freq." description="Frequency to the authority ascosiated with this control point." />
     </item>
   </group>
 </presets>
