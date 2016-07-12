@@ -6,14 +6,15 @@
     link="http://mfatech.org"
     version="0.1">
 
-  <group name="TFL" icon="yes_32.png">
-    <item name="Cycle Lane / Track" icon="transport_bicycle.png"type="way">
+ 
+  <group name="OAM" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Airspace" icon="styles/standard/transport/way/way_motorway.svg" type="closedway">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Airspace" />
       <label text="Edit Airspace" />
       <space />
       <!-- NAMES AND REF -->
-      <text key="Cycle Lane/Track ID" text="001" />
-      <text key="On / Off Carriageway" text="Long name" />
+      <text key="name" text="Name" />
+      <text key="longname" text="Long name" />
       <text key="ref"  text="Reference number" />
       <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
 
@@ -31,7 +32,7 @@
       <combo key="height:upper:unit" text="Upper Height Unit" description="Lower Height Unit (feet, flight level, metres)" values="ft,fl,m"/>
       <combo key="height:upper:class" text="Upper Height Class" description="Lower Height Class (Above Mean Sea Level or Above Ground Level)" values="amsl,agl"/>
     </item>
-    <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Navaid" icon="styles/standard/transport/way/way_secondary.svg">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <label text="Edit Navaid" />
       <space />
@@ -70,7 +71,7 @@
       <text key="lighting:color" text="Color" description="Color of ligthing" />
     </item>
 
-    <item name="Aerodrome" icon="transport_bicycle.png" type="relation,node">
+    <item name="Aerodrome" icon="styles/standard/transport/way/way_secondary.svg" type="relation,node">
       <key key="aerodrome" value="yes" />
       <label text="Edit Aerodrome" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Aerodrome" />
@@ -104,7 +105,7 @@
       <text key="comm:gnd" text="Ground freq." description="Ground freq." />
     </item>
 
-    <item name="Crossing" icon="transport_bicycle.png">
+    <item name="VFR Reporting Point" icon="styles/standard/transport/way/way_secondary.svg">
       <key key="vfrreportingpoint" value="yes" />
       <label text="Edit VFR Reporting Point" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
