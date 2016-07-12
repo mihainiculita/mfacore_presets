@@ -7,7 +7,7 @@
     version="0.0.2">
     
   <group name="TFL" icon="styles/standard/transport/way/way_secondary.svg">
-    <item name="Airspace" icon="styles/standard/transport/way/way_motorway.svg" type="closedway">
+    <item name="Cycle Lane / Track" icon="styles/standard/transport/way/way_motorway.svg" type="closedway">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Airspace" />
       <label text="Edit Airspace" />
       <space />
