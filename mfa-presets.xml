@@ -14,7 +14,7 @@
       <text key="TYPE" text="Type" default="Cycle Lane/Track" />
       <text key="CLT_CARR"  text="On / Off Carriageway" />
       <text key="CLT_SEGREG" text="Segregated lane / track" />
-      <key key="CLT_STEPP" text="Stepped lane / track" value="yes" />
+      <text key="CLT_STEPP" text="Stepped lane / track" />
     </item>
     
     <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
