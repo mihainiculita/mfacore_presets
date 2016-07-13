@@ -9,11 +9,11 @@
   <group name="Lines" icon="transport_bicycle.png">
     <item name="CycLaTrack" icon="transport_bicycle.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
-      <label text="Edit Cycle Lane/Track" />
+      <label text="Edit Cycle Lane/Track Attributes" />
       <space />
       <text key="TYPE" text="Type" default="Cycle Lane/Track ID" />
       <text key="CLT_ID" text="Cycle Lane/Track ID" />
-      <check key="CLT_CARR"  text="On / Off Carriageway" />
+      <check key="CLT_CARR"  text="On / Off Carriageway"  columns="2" />
       <check key="CLT_SEGREG" text="Segregated lane / track" />
       <check key="CLT_STEPP" text="Stepped lane / track" />
       <check key="CLT_PARSEG"  text="Partially segregated lane / track" />
@@ -43,7 +43,7 @@
     
     <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
-      <label text="Edit Navaid" />
+      <label text="Edit ASL Attributes" />
       <space />
       <text key="TYPE" text="Type" default="ASL" />
       <text key="ASL_ID" text="Advanced Stop Line ID" />
@@ -65,7 +65,7 @@
     </item>
     
     <item name="Crossing" icon="styles/standard/transport/way/way_secondary.svg">
-      <label text="Edit Obstacle" />
+      <label text="Edit Crossing Attributes" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Obstacle" />
       <space />
       <text key="TYPE" text="Type" default="ASL" />
@@ -87,9 +87,8 @@
       <combo key="CRS_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Surface Colour" />
     </item>
 
-    <item name="Restr rt" icon="styles/standard/transport/way/way_secondary.svg" type="relation,node">
-      <key key="aerodrome" value="yes" />
-      <label text="Edit Aerodrome" />
+    <item name="RestrRout" icon="styles/standard/transport/way/way_secondary.svg">
+      <label text="Edit Restricted route Attributes" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Aerodrome" />
       <space />
       <text key="TYPE" text="Type" default="Restricted route" />
