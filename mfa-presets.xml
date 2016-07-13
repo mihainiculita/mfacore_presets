@@ -21,7 +21,7 @@
       <check key="CLT_MANDAT" text="Mandatory cycle lane" />
       <check key="CLT_ADVIS"  text="Advisory cycle lane" />
       <check key="CLT_PRIORI" text="Cycle lane/track priority" />
-      <check key="CLT_CONTRA" text="Contraflow lane/track" values_from="getDateTime()"/>
+      <check key="CLT_CONTRA" text="Contraflow lane/track" values_from="System.out.println(ZonedDateTime.now().format(DateTimeFormatter.RFC_1123_DATE_TIME))"/>
       <check key="CLT_BIDIRE" text="Bi-directional" />
       <check key="CLT_CBYPAS" text="Cycle bypass" />
       <check key="CLT_BBYPAS"  text="Bus stop bypass" />
