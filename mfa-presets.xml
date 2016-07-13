@@ -13,12 +13,10 @@
       <space />
       <text key="TYPE" text="Type" default="Cycle Lane/Track ID" />
       <text key="CLT_ID" text="Cycle Lane/Track ID" />
-      <check key="CLT_CARR"  text="On / Off Carriageway"  default="on"  columns="2" />
-      <check key="CLT_SEGREG" text="Segregated lane / track" />
-      <combo key="CLT_SEGREG1" text="Segregated lane / track" match="key" values_sort="false" >
-        <list_entry value="yes" display_value="Yes" />
-        <list_entry value="no" display_value="No" />
-      </combo>
+      <checkgroup columns="2">
+        <check key="CLT_CARR"  text="On / Off Carriageway"  default="on"  />
+        <check key="CLT_SEGREG" text="Segregated lane / track" />
+      </checkgroup>
       <check key="CLT_STEPP" text="Stepped lane / track" />
       <check key="CLT_PARSEG"  text="Partially segregated lane / track" />
       <check key="CLT_SHARED" text="Shared lane or footway" />
