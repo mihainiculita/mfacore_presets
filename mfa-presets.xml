@@ -13,7 +13,7 @@
       <space />
       <text key="TYPE" text="Type" default="Cycle Lane/Track ID" />
       <text key="CLT_ID" text="Cycle Lane/Track ID" />
-      <check key="CLT_CARR"  text="On / Off Carriageway"  columns="2" />
+      <check key="CLT_CARR"  text="On / Off Carriageway"  default="on"  columns="2" />
       <check key="CLT_SEGREG" text="Segregated lane / track" />
       <check key="CLT_STEPP" text="Stepped lane / track" />
       <check key="CLT_PARSEG"  text="Partially segregated lane / track" />
@@ -92,7 +92,7 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Aerodrome" />
       <space />
       <text key="TYPE" text="Type" default="Restricted route" />
-      <text key="RES_ID" text="Type" default="Restricted route ID" />
+      <text key="RES_ID" text="Restricted route ID" />
       <check key="RES_PEDEST"  text="Pedestrian only route" />
       <check key="RES_BRIDGE" text="Pedestrian bridge" />
       <check key="RES_TUNNEL" text="Pedestrian tunnel" />
