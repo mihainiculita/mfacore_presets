@@ -11,7 +11,7 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <label text="Edit Cycle Lane/Track" />
       <space />
-      <text key="TYPE" text="Type" value="Cycle Lane/Track" />
+      <text key="TYPE" text="Type" default="Cycle Lane/Track" />
       <text key="CLT_CARR"  text="On / Off Carriageway" />
       <text key="CLT_SEGREG" text="Segregated lane / track" />
       <text key="CLT_STEPP" text="Stepped lane / track" />
