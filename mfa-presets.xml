@@ -15,6 +15,12 @@
       <text key="CLT_CARR"  text="On / Off Carriageway" />
       <text key="CLT_SEGREG" text="Segregated lane / track" />
       <text key="CLT_STEPP" text="Stepped lane / track" />
+      <text key="CLT_PARSEG"  text="Partially segregated lane / track" />
+      <text key="CLT_SHARED" text="Shared lane or footway" />
+      <text key="CLT_MANDAT" text="Mandatory cycle lane" />
+      <text key="CLT_ADVIS"  text="Advisory cycle lane" />
+      <text key="CLT_PRIORI" text="Cycle lane/track priority" />
+      <text key="CLT_CONTRA" text="Stepped lane / track" />
     </item>
     
     <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
