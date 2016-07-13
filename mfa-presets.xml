@@ -15,7 +15,7 @@
       <text key="CLT_ID" text="Cycle Lane/Track ID" />
       <check key="CLT_CARR"  text="On / Off Carriageway"  default="on"  columns="2" />
       <check key="CLT_SEGREG" text="Segregated lane / track" />
-      <combo key="CLT_SEGREG" text="Segregated lane / track" match="key" values_sort="false" >
+      <combo key="CLT_SEGREG1" text="Segregated lane / track" match="key" values_sort="false" >
         <list_entry value="yes" display_value="Yes" />
         <list_entry value="no" display_value="No" />
       </combo>
