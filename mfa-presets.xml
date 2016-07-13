@@ -15,6 +15,10 @@
       <text key="CLT_ID" text="Cycle Lane/Track ID" />
       <check key="CLT_CARR"  text="On / Off Carriageway"  default="on"  columns="2" />
       <check key="CLT_SEGREG" text="Segregated lane / track" />
+      <combo key="CLT_SEGREG" text="Segregated lane / track" match="key" values_sort="false" >
+        <list_entry value="yes" display_value="Yes" />
+        <list_entry value="no" display_value="No" />
+      </combo>
       <check key="CLT_STEPP" text="Stepped lane / track" />
       <check key="CLT_PARSEG"  text="Partially segregated lane / track" />
       <check key="CLT_SHARED" text="Shared lane or footway" />
@@ -37,7 +41,7 @@
       <text key="CLT_DPNO" text="Data package number" />
       <text key="CLT_UPDATE" text="Update date" />
       <text key="CLT_UPNAME" text="Update by" />
-      <text key="CLT_COMM" text="Comment" />
+      <text key="COMMENTS" text="Comment" />
       <combo key="CLT_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
     </item>
     
@@ -60,7 +64,7 @@
       <text key="ASL_DPNO" text="Data package number" />
       <text key="ASL_UPDATE" text="Update date" />
       <text key="ASL_UPNAME" text="Update by" />
-      <text key="ASL_COMM" text="Comment" />
+      <text key="COMMENTS" text="Comment" />
       <combo key="ASL_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Surface Colour" />
     </item>
     
@@ -83,7 +87,7 @@
       <text key="CRS_DPNO" text="Data package number" />
       <text key="CRS_UPDATE" text="Update date" />
       <text key="CRS_UPNAME" text="Update by" />
-      <text key="CRS_COMM" text="Comment" />
+      <text key="COMMENTS" text="Comment" />
       <combo key="CRS_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Surface Colour" />
     </item>
 
@@ -107,31 +111,53 @@
       <text key="RES_DPNO" text="Data package number" />
       <text key="RES_UPDATE" text="Update date" />
       <text key="RES_UPNAME" text="Update by" />
-      <text key="RES_COMM" text="Comment" />
+      <text key="COMMENTS" text="Comment" />
       <combo key="RES_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
     </item>
   </group>
   
   <group name="Points" icon="styles/standard/transport/way/way_secondary.svg">
     <item name="Sign/Symb" icon="styles/standard/transport/way/way_secondary.svg">
-      <key key="vfrreportingpoint" value="yes" />
-      <label text="Edit VFR Reporting Point" />
-      <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
-      <space />
-
-      <!-- NAMES AND REF -->
-      <text key="name" text="Name" />
-      <text key="longname" text="Long name" />
-      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
-      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
-
-      <!-- HEIGHT -->
-      <text key="height" text="Height" description="Height (number)"/>
-      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
-      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
-
-      <!-- COMMUNICATION -->
-      <text key="comm:ctrl" text="CTRL freq." description="Frequency to the authority ascosiated with this control point." />
+      <text key="TYPE" text="Type" default="Singal or Symbol" />
+      <text key="SS_ID" text="Signage ID" />
+      <check key="SS_ROAD"  text="Road marking" />
+      <check key="SS_PATCH" text="Coloured patch on surface" />
+      <check key="SS_FACING" text="Facing off-side" />
+      <text key="SS_DIAG"  text="Sign diagram number" />
+      <check key="SS_NOCYC" text="No cycling" />
+      <check key="SS_NOVEH" text="No vehicles" />
+      <check key="SS_CIRC" text="Circular" />
+      <check key="SS_EXEMPT" text="Exemption" />
+      <check key="SS_NOLEFT" text="No left turn exception" />
+      <check key="SS_NORIGH" text="No right turn exception" />
+      <check key="SS_LEFT" text="Compulsory turn left exception" />
+      <check key="SS_RIGHT" text="Compulsory turn right exception" />
+      <check key="SS_NOEXCE" text="No straight ahead exception	" />
+      <check key="SS_DISMOU" text="Cyclists dismount" />
+      <check key="SS_END" text="End of Route" />
+      <check key="SS_CYCSMB" text="Cycle symbol" />
+      <check key="SS_PEDSMB" text="Pedestrian symbol" />
+      <check key="SS_BUSSMB" text="Bus symbol" />
+      <check key="SS_SMB" text="Other vehicle symbol" />
+      <check key="SS_LNSIGN" text="Line on sign" />
+      <check key="SS_ARROW" text="Direction arrow	" />
+      <check key="SS_DESTN" text="Destination" />
+      <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+      <check key="SS_NCN" text="National Cycle Network" />
+      <check key="SS_LCN" text="London Cycle Network" />
+      <check key="SS_SUPERH" text="Cycle Superhighway" />
+      <check key="SS_QUIETW" text="Quietway" />
+      <check key="SS_GREENW" text="Greenway" />
+      <check key="SS_ROUTEN" text="Route Number" />
+      <check key="SS_ACCESS" text="Access times" />
+      <text key="SS_SVTIME" text="Survey Time" />
+      <text key="SS_SVNAME" text="Surveyor Name" />
+      <text key="SS_QADATE" text="Field Survey QA Date" />
+      <text key="SS_QANAME" text="Field Survey QA by" />
+      <text key="SS_DPNO" text="Data package number" />
+      <text key="SS_UPDATE" text="Update date" />
+      <text key="SS_UPNAME" text="Update by" />
+      <text key="COMMENTS" text="Comment" />
     </item>
     
     <item name="Signal" icon="styles/standard/transport/way/way_secondary.svg">
