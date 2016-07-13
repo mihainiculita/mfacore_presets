@@ -12,6 +12,7 @@
       <label text="Edit Cycle Lane/Track Attributes" />
       <space />
       <text key="TYPE" text="Type" default="Cycle Lane/Track ID" />
+      <key key="TYPE" value="Cycle Lane/Track ID" />
       <text key="CLT_ID" text="Cycle Lane/Track ID" />
       <checkgroup columns="2">
         <check key="CLT_CARR"  text="On / Off Carriageway"  default="on"  />
