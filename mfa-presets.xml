@@ -115,48 +115,50 @@
   </group>
   
   <group name="Points" icon="styles/standard/transport/way/way_secondary.svg">
-    <item name="Sign/Symb" icon="styles/standard/transport/way/way_secondary.svg">
-      <text key="TYPE" text="Type" default="Singal or Symbol" />
-      <text key="SS_ID" text="Signage ID" />
-      <check key="SS_ROAD"  text="Road marking" />
-      <check key="SS_PATCH" text="Coloured patch on surface" />
-      <check key="SS_FACING" text="Facing off-side" />
-      <text key="SS_DIAG"  text="Sign diagram number" />
-      <check key="SS_NOCYC" text="No cycling" />
-      <check key="SS_NOVEH" text="No vehicles" />
-      <check key="SS_CIRC" text="Circular" />
-      <check key="SS_EXEMPT" text="Exemption" />
-      <check key="SS_NOLEFT" text="No left turn exception" />
-      <check key="SS_NORIGH" text="No right turn exception" />
-      <check key="SS_LEFT" text="Compulsory turn left exception" />
-      <check key="SS_RIGHT" text="Compulsory turn right exception" />
-      <check key="SS_NOEXCE" text="No straight ahead exception	" />
-      <check key="SS_DISMOU" text="Cyclists dismount" />
-      <check key="SS_END" text="End of Route" />
-      <check key="SS_CYCSMB" text="Cycle symbol" />
-      <check key="SS_PEDSMB" text="Pedestrian symbol" />
-      <check key="SS_BUSSMB" text="Bus symbol" />
-      <check key="SS_SMB" text="Other vehicle symbol" />
-      <check key="SS_LNSIGN" text="Line on sign" />
-      <check key="SS_ARROW" text="Direction arrow	" />
-      <check key="SS_DESTN" text="Destination" />
-      <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
-      <check key="SS_NCN" text="National Cycle Network" />
-      <check key="SS_LCN" text="London Cycle Network" />
-      <check key="SS_SUPERH" text="Cycle Superhighway" />
-      <check key="SS_QUIETW" text="Quietway" />
-      <check key="SS_GREENW" text="Greenway" />
-      <check key="SS_ROUTEN" text="Route Number" />
-      <check key="SS_ACCESS" text="Access times" />
-      <text key="SS_SVTIME" text="Survey Time" />
-      <text key="SS_SVNAME" text="Surveyor Name" />
-      <text key="SS_QADATE" text="Field Survey QA Date" />
-      <text key="SS_QANAME" text="Field Survey QA by" />
-      <text key="SS_DPNO" text="Data package number" />
-      <text key="SS_UPDATE" text="Update date" />
-      <text key="SS_UPNAME" text="Update by" />
-      <text key="COMMENTS" text="Comment" />
-    </item>
+      <group name="Sign/Symb">
+        <item name="100" icon="styles/standard/transport/way/way_secondary.svg">
+          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <text key="SS_ID" text="Signage ID" />
+          <check key="SS_ROAD"  text="Road marking" />
+          <check key="SS_PATCH" text="Coloured patch on surface" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <text key="SS_DIAG"  text="Sign diagram number" />
+          <check key="SS_NOCYC" text="No cycling" />
+          <check key="SS_NOVEH" text="No vehicles" />
+          <check key="SS_CIRC" text="Circular" />
+          <check key="SS_EXEMPT" text="Exemption" />
+          <check key="SS_NOLEFT" text="No left turn exception" />
+          <check key="SS_NORIGH" text="No right turn exception" />
+          <check key="SS_LEFT" text="Compulsory turn left exception" />
+          <check key="SS_RIGHT" text="Compulsory turn right exception" />
+          <check key="SS_NOEXCE" text="No straight ahead exception	" />
+          <check key="SS_DISMOU" text="Cyclists dismount" />
+          <check key="SS_END" text="End of Route" />
+          <check key="SS_CYCSMB" text="Cycle symbol" />
+          <check key="SS_PEDSMB" text="Pedestrian symbol" />
+          <check key="SS_BUSSMB" text="Bus symbol" />
+          <check key="SS_SMB" text="Other vehicle symbol" />
+          <check key="SS_LNSIGN" text="Line on sign" />
+          <check key="SS_ARROW" text="Direction arrow	" />
+          <check key="SS_DESTN" text="Destination" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <check key="SS_ROUTEN" text="Route Number" />
+          <check key="SS_ACCESS" text="Access times" />
+          <text key="SS_SVTIME" text="Survey Time" />
+          <text key="SS_SVNAME" text="Surveyor Name" />
+          <text key="SS_QADATE" text="Field Survey QA Date" />
+          <text key="SS_QANAME" text="Field Survey QA by" />
+          <text key="SS_DPNO" text="Data package number" />
+          <text key="SS_UPDATE" text="Update date" />
+          <text key="SS_UPNAME" text="Update by" />
+          <text key="COMMENTS" text="Comment" />
+        </item>
+    </group>
     
     <item name="Signal" icon="styles/standard/transport/way/way_secondary.svg">
       <key key="vfrreportingpoint" value="yes" />
