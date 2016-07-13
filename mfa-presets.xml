@@ -12,7 +12,7 @@
       <label text="Edit Cycle Lane/Track" />
       <space />
       <text key="TYPE" text="Type" default="Cycle Lane/Track ID" />
-      <text key="CLT_ID" text="Type" default="Cycle Lane/Track" />
+      <text key="CLT_ID" text="Cycle Lane/Track ID" />
       <check key="CLT_CARR"  text="On / Off Carriageway" />
       <check key="CLT_SEGREG" text="Segregated lane / track" />
       <check key="CLT_STEPP" text="Stepped lane / track" />
@@ -29,7 +29,6 @@
       <check key="CLT_WATERR" text="Waterside route" />
       <check key="CLT_FPTIME" text="Full-time / Part-time" />
       <text key="CLT_ACCESS" text="Access times" />
-      <text key="CLT_COLOUR" text="Surface colour" />
       <text key="CLT_SVDATE" text="Survey Date" />
       <text key="CLT_SVTIME" text="Survey Time" />
       <text key="CLT_SVNAME" text="Surveyor Name" />
@@ -46,70 +45,46 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <label text="Edit Navaid" />
       <space />
-      <text key="TYPE" text="Type" default="Cycle Lane/Track ID" />
-      <text key="CLT_ID" text="Type" default="Cycle Lane/Track" />
-      <check key="CLT_CARR"  text="On / Off Carriageway" />
-      <check key="CLT_SEGREG" text="Segregated lane / track" />
-      <check key="CLT_STEPP" text="Stepped lane / track" />
-      <check key="CLT_PARSEG"  text="Partially segregated lane / track" />
-      <check key="CLT_SHARED" text="Shared lane or footway" />
-      <check key="CLT_MANDAT" text="Mandatory cycle lane" />
-      <check key="CLT_ADVIS"  text="Advisory cycle lane" />
-      <check key="CLT_PRIORI" text="Cycle lane/track priority" />
-      <check key="CLT_CONTRA" text="Contraflow lane/track" values_from="getDateTime()"/>
-      <check key="CLT_BIDIRE" text="Bi-directional" />
-      <check key="CLT_CBYPAS" text="Cycle bypass" />
-      <check key="CLT_BBYPAS"  text="Bus stop bypass" />
-      <check key="CLT_PARKR" text="Park route" />
-      <check key="CLT_WATERR" text="Waterside route" />
-      <check key="CLT_FPTIME" text="Full-time / Part-time" />
-      <text key="CLT_ACCESS" text="Access times" />
-      <text key="CLT_COLOUR" text="Surface colour" />
-      <text key="CLT_SVDATE" text="Survey Date" />
-      <text key="CLT_SVTIME" text="Survey Time" />
-      <text key="CLT_SVNAME" text="Surveyor Name" />
-      <text key="CLT_QADATE" text="Field Survey QA Date" />
-      <text key="CLT_QANAME" text="Field Survey QA by" />
-      <text key="CLT_DPNO" text="Data package number" />
-      <text key="CLT_UPDATE" text="Update date" />
-      <text key="CLT_UPNAME" text="Update by" />
-      <text key="CLT_COMM" text="Comment" />
-      <combo key="CLT_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <text key="TYPE" text="Type" default="ASL" />
+      <text key="ASL_ID" text="Advanced Stop Line ID" />
+      <check key="ASL_FDR"  text="Feeder lane	" />
+      <check key="ASL_FDRLFT" text="Feeder lane on left" />
+      <check key="ASL_FDCENT" text="Feeder Lane in centre" />
+      <check key="ASL_FDRIGH"  text="Feeder lane on right" />
+      <check key="ASL_SHARED" text="Shared nearside lane" />
+      <text key="ASL_SVDATE" text="Survey Date" />
+      <text key="ASL_SVTIME" text="Survey Time" />
+      <text key="ASL_SVNAME" text="Surveyor Name" />
+      <text key="ASL_QADATE" text="Field Survey QA Date" />
+      <text key="ASL_QANAME" text="Field Survey QA by" />
+      <text key="ASL_DPNO" text="Data package number" />
+      <text key="ASL_UPDATE" text="Update date" />
+      <text key="ASL_UPNAME" text="Update by" />
+      <text key="ASL_COMM" text="Comment" />
+      <combo key="ASL_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Surface Colour" />
     </item>
     
     <item name="Crossing" icon="styles/standard/transport/way/way_secondary.svg">
       <label text="Edit Obstacle" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Obstacle" />
       <space />
-      <text key="TYPE" text="Type" default="Cycle Lane/Track ID" />
-      <text key="CLT_ID" text="Type" default="Cycle Lane/Track" />
-      <check key="CLT_CARR"  text="On / Off Carriageway" />
-      <check key="CLT_SEGREG" text="Segregated lane / track" />
-      <check key="CLT_STEPP" text="Stepped lane / track" />
-      <check key="CLT_PARSEG"  text="Partially segregated lane / track" />
-      <check key="CLT_SHARED" text="Shared lane or footway" />
-      <check key="CLT_MANDAT" text="Mandatory cycle lane" />
-      <check key="CLT_ADVIS"  text="Advisory cycle lane" />
-      <check key="CLT_PRIORI" text="Cycle lane/track priority" />
-      <check key="CLT_CONTRA" text="Contraflow lane/track" values_from="getDateTime()"/>
-      <check key="CLT_BIDIRE" text="Bi-directional" />
-      <check key="CLT_CBYPAS" text="Cycle bypass" />
-      <check key="CLT_BBYPAS"  text="Bus stop bypass" />
-      <check key="CLT_PARKR" text="Park route" />
-      <check key="CLT_WATERR" text="Waterside route" />
-      <check key="CLT_FPTIME" text="Full-time / Part-time" />
-      <text key="CLT_ACCESS" text="Access times" />
-      <text key="CLT_COLOUR" text="Surface colour" />
-      <text key="CLT_SVDATE" text="Survey Date" />
-      <text key="CLT_SVTIME" text="Survey Time" />
-      <text key="CLT_SVNAME" text="Surveyor Name" />
-      <text key="CLT_QADATE" text="Field Survey QA Date" />
-      <text key="CLT_QANAME" text="Field Survey QA by" />
-      <text key="CLT_DPNO" text="Data package number" />
-      <text key="CLT_UPDATE" text="Update date" />
-      <text key="CLT_UPNAME" text="Update by" />
-      <text key="CLT_COMM" text="Comment" />
-      <combo key="CLT_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <text key="TYPE" text="Type" default="ASL" />
+      <text key="CRS_ID" text="Crossing ID" />
+      <check key="CRS_SIGNAL"  text="Signal controlled crossing" />
+      <check key="CRS_SEGREG" text="Segregated cycles and pedestrians" />
+      <check key="CRS_CYGAP" text="Cycle gap" />
+      <check key="CRS_PEDEST"  text="Pedestrian Only Crossing" />
+      <check key="CRS_LEVEL" text="Level Crossing" />
+      <text key="CRS_SVDATE" text="Survey Date" />
+      <text key="CRS_SVTIME" text="Survey Time" />
+      <text key="CRS_SVNAME" text="Surveyor Name" />
+      <text key="CRS_QADATE" text="Field Survey QA Date" />
+      <text key="CRS_QANAME" text="Field Survey QA by" />
+      <text key="CRS_DPNO" text="Data package number" />
+      <text key="CRS_UPDATE" text="Update date" />
+      <text key="CRS_UPNAME" text="Update by" />
+      <text key="CRS_COMM" text="Comment" />
+      <combo key="CRS_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Surface Colour" />
     </item>
 
     <item name="Restr rt" icon="styles/standard/transport/way/way_secondary.svg" type="relation,node">
@@ -117,35 +92,24 @@
       <label text="Edit Aerodrome" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Aerodrome" />
       <space />
-      <text key="TYPE" text="Type" default="Cycle Lane/Track ID" />
-      <text key="CLT_ID" text="Type" default="Cycle Lane/Track" />
-      <check key="CLT_CARR"  text="On / Off Carriageway" />
-      <check key="CLT_SEGREG" text="Segregated lane / track" />
-      <check key="CLT_STEPP" text="Stepped lane / track" />
-      <check key="CLT_PARSEG"  text="Partially segregated lane / track" />
-      <check key="CLT_SHARED" text="Shared lane or footway" />
-      <check key="CLT_MANDAT" text="Mandatory cycle lane" />
-      <check key="CLT_ADVIS"  text="Advisory cycle lane" />
-      <check key="CLT_PRIORI" text="Cycle lane/track priority" />
-      <check key="CLT_CONTRA" text="Contraflow lane/track" values_from="getDateTime()"/>
-      <check key="CLT_BIDIRE" text="Bi-directional" />
-      <check key="CLT_CBYPAS" text="Cycle bypass" />
-      <check key="CLT_BBYPAS"  text="Bus stop bypass" />
-      <check key="CLT_PARKR" text="Park route" />
-      <check key="CLT_WATERR" text="Waterside route" />
-      <check key="CLT_FPTIME" text="Full-time / Part-time" />
-      <text key="CLT_ACCESS" text="Access times" />
-      <text key="CLT_COLOUR" text="Surface colour" />
-      <text key="CLT_SVDATE" text="Survey Date" />
-      <text key="CLT_SVTIME" text="Survey Time" />
-      <text key="CLT_SVNAME" text="Surveyor Name" />
-      <text key="CLT_QADATE" text="Field Survey QA Date" />
-      <text key="CLT_QANAME" text="Field Survey QA by" />
-      <text key="CLT_DPNO" text="Data package number" />
-      <text key="CLT_UPDATE" text="Update date" />
-      <text key="CLT_UPNAME" text="Update by" />
-      <text key="CLT_COMM" text="Comment" />
-      <combo key="CLT_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <text key="TYPE" text="Type" default="Restricted route" />
+      <text key="RES_ID" text="Type" default="Restricted route ID" />
+      <check key="RES_PEDEST"  text="Pedestrian only route" />
+      <check key="RES_BRIDGE" text="Pedestrian bridge" />
+      <check key="RES_TUNNEL" text="Pedestrian tunnel" />
+      <check key="RES_STEPS"  text="Steps" />
+      <check key="RES_LIFT" text="Lift" />
+      <text key="RES_COLOUR" text="Surface colour" />
+      <text key="RES_SVDATE" text="Survey Date" />
+      <text key="RES_SVTIME" text="Survey Time" />
+      <text key="RES_SVNAME" text="Surveyor Name" />
+      <text key="RES_QADATE" text="Field Survey QA Date" />
+      <text key="RES_QANAME" text="Field Survey QA by" />
+      <text key="RES_DPNO" text="Data package number" />
+      <text key="RES_UPDATE" text="Update date" />
+      <text key="RES_UPNAME" text="Update by" />
+      <text key="RES_COMM" text="Comment" />
+      <combo key="RES_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
     </item>
   </group>
   
