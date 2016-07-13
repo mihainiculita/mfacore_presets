@@ -7,11 +7,8 @@
     version="0.1">
     
   <group name="Lines" icon="transport_bicycle.png">
-    <item name="CycLaTrack" icon="transport_bicycle.png">
+    <item name="Cycle Lane/Track" icon="transport_bicycle.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
-      <label text="Edit Cycle Lane/Track Attributes" />
-      <space />
-      <text key="TYPE" text="Type" default="Cycle Lane/Track ID" />
       <key key="TYPE" value="Cycle Lane/Track ID" />
       <text key="CLT_ID" text="Cycle Lane/Track ID" />
       <checkgroup columns="2">
@@ -46,9 +43,7 @@
     
     <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
-      <label text="Edit ASL Attributes" />
-      <space />
-      <text key="TYPE" text="Type" default="ASL" />
+      <key key="TYPE" value="ASL" />
       <text key="ASL_ID" text="Advanced Stop Line ID" />
       <check key="ASL_FDR"  text="Feeder lane	" />
       <check key="ASL_FDRLFT" text="Feeder lane on left" />
@@ -69,9 +64,7 @@
     
     <item name="Crossing" icon="styles/standard/transport/way/way_secondary.svg">
       <label text="Edit Crossing Attributes" />
-      <link href="http://wiki.openaviationmap.org/wiki/index.php/Obstacle" />
-      <space />
-      <text key="TYPE" text="Type" default="ASL" />
+      <key key="TYPE" value="Crossing" />
       <text key="CRS_ID" text="Crossing ID" />
       <check key="CRS_SIGNAL"  text="Signal controlled crossing" />
       <check key="CRS_SEGREG" text="Segregated cycles and pedestrians" />
@@ -92,8 +85,7 @@
 
     <item name="RestrRout" icon="styles/standard/transport/way/way_secondary.svg">
       <label text="Edit Restricted route Attributes" />
-      <link href="http://wiki.openaviationmap.org/wiki/index.php/Aerodrome" />
-      <space />
+      <key key="TYPE" value="Restricted route" />
       <text key="TYPE" text="Type" default="Restricted route" />
       <text key="RES_ID" text="Restricted route ID" />
       <check key="RES_PEDEST"  text="Pedestrian only route" />
@@ -116,9 +108,9 @@
   </group>
   
   <group name="Points" icon="styles/standard/transport/way/way_secondary.svg">
-      <group name="Sign/Symb">
+      <group name="Signal/Symbol">
         <item name="606/ 609 L" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="606 / 609 L" />
           <text key="SS_ID" text="Signage ID" />
           <check key="SS_ROAD"  text="Road marking" />
           <check key="SS_PATCH" text="Coloured patch on surface" />
@@ -160,127 +152,127 @@
           <text key="COMMENTS" text="Comment" />
         </item>
         <item name="606/ 609 R" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="606 / 609 R" />
         </item>
         <item name="612" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="612" />
         </item>
         <item name="613" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="613" />
         </item>
         <item name="616" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="616" />
         </item>
         <item name="617" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="617" />
         </item>
         <item name="619" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="619" />
         </item>
         <item name="652" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="652" />
         </item>
         <item name="810" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="810" />
         </item>
         <item name="816" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="816" />
         </item>
         <item name="951" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="951" />
         </item>
         <item name="953" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="953" />
         </item>
         <item name="953A" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="953A" />
         </item>
         <item name="953B" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="953B" />
         </item>
         <item name="953.1A" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="953.1A" />
         </item>
         <item name="955" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="955" />
         </item>
         <item name="956" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="956" />
         </item>
         <item name="956.1" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="956.1" />
         </item>
         <item name="957" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="957" />
         </item>
         <item name="958" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="958" />
         </item>
         <item name="958.1" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="958.1" />
         </item>
         <item name="959" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="959" />
         </item>
         <item name="959.1" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="959.1" />
         </item>
         <item name="960" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="960" />
         </item>
         <item name="960.1" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="960.1" />
         </item>
         <item name="960.2" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="960.2" />
         </item>
         <item name="965" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="965" />
         </item>
         <item name="966" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="966" />
         </item>
         <item name="967" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="967" />
         </item>
         <item name="1057" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="1057" />
         </item>
         <item name="1057.1" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="1057.1" />
         </item>
         <item name="2005.1" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="2005.1" />
         </item>
         <item name="2105.1" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="2105.1" />
         </item>
         <item name="2106.1" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="2106.1" />
         </item>
         <item name="2601.1" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="2601.1" />
         </item>
         <item name="2601.2" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="2601.2" />
         </item>
         <item name="2602.1" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="2602.1" />
         </item>
         <item name="2602.2" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="2602.2" />
         </item>
         <item name="2602.3" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="2602.3" />
         </item>
         <item name="2606" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="2606" />
         </item>
         <item name="Bespoke park sign" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="Bespoke park sign" />
         </item>
         <item name="Greenway" icon="styles/standard/transport/way/way_secondary.svg">
-          <text key="TYPE" text="Type" default="Singal or Symbol" />
+          <key key="TYPE" value="Greenway" />
         </item>
     </group>
     
