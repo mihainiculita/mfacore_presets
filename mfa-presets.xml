@@ -12,7 +12,7 @@
       <label text="Edit Cycle Lane/Track" />
       <space />
       <text key="TYPE" text="Type" default="Cycle Lane/Track" />
-      <text key="CLT_CARR"  text="On / Off Carriageway" />
+      <check key="CLT_CARR"  text="On / Off Carriageway" />
       <text key="CLT_SEGREG" text="Segregated lane / track" />
       <text key="CLT_STEPP" text="Stepped lane / track" />
       <text key="CLT_PARSEG"  text="Partially segregated lane / track" />
