@@ -20,7 +20,7 @@
       <text key="CLT_MANDAT" text="Mandatory cycle lane" />
       <text key="CLT_ADVIS"  text="Advisory cycle lane" />
       <text key="CLT_PRIORI" text="Cycle lane/track priority" />
-      <text key="CLT_CONTRA" text="Stepped lane / track" />
+      <text key="CLT_CONTRA" text="Stepped lane / track" values_from="getDateTime()"/>
     </item>
     
     <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
