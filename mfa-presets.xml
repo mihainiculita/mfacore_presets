@@ -32,7 +32,7 @@
       <text key="CLT_SVDATE" text="Survey Date" />
       <key="CLT_SVDATE1" values_from="current-dateTime()" />
       <text key="CLT_SVTIME" text="Survey Time" />
-      <text key="CLT_SVNAME" text="Surveyor Name" values_from="Secure.getString(MainActivity.this.getContentResolver(),Secure.ANDROID_ID)" />
+      <!--<text key="CLT_SVNAME" text="Surveyor Name" values_from="Secure.getString(MainActivity.this.getContentResolver(),Secure.ANDROID_ID)" />-->
       <text key="CLT_QADATE" text="Field Survey QA Date" />
       <text key="CLT_QANAME" text="Field Survey QA by" />
       <text key="CLT_DPNO" text="Data package number" />
