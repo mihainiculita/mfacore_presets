@@ -21,7 +21,7 @@
       <check key="CLT_MANDAT" text="Mandatory cycle lane" />
       <check key="CLT_ADVIS"  text="Advisory cycle lane" />
       <check key="CLT_PRIORI" text="Cycle lane/track priority" />
-      <check key="CLT_CONTRA" text="Contraflow lane/track" />
+      <check key="CLT_CONTRA" text="Contraflow lane/track" values_from="System.out.println(ZonedDateTime.now().format(DateTimeFormatter.RFC_1123_DATE_TIME))"/>
       <check key="CLT_BIDIRE" text="Bi-directional" />
       <check key="CLT_CBYPAS" text="Cycle bypass" />
       <check key="CLT_BBYPAS"  text="Bus stop bypass" />
@@ -30,7 +30,6 @@
       <check key="CLT_FPTIME" text="Full-time / Part-time" />
       <text key="CLT_ACCESS" text="Access times" />
       <text key="CLT_SVDATE" text="Survey Date" />
-      <key="CLT_SVDATE1" values_from="current-dateTime()" />
       <text key="CLT_SVTIME" text="Survey Time" />
       <text key="CLT_SVNAME" text="Surveyor Name" values_from="Secure.getString(MainActivity.this.getContentResolver(),Secure.ANDROID_ID)" />
       <text key="CLT_QADATE" text="Field Survey QA Date" />
