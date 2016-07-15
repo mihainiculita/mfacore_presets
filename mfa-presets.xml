@@ -37,7 +37,7 @@
       <key key="DPNO" value="o" />
       <key key="UPDATE" value="o" />
       <key key="UPNAME" value="o" />
-      <key key="COMMENTS" value="o" />
+      <text key="COMMENTS" text="Comments" />
     </item>
     
     <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
