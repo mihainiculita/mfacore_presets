@@ -83,7 +83,7 @@
       <text key="COMMENTS" text="Comments" />
     </item>
 
-    <item name="RestrRout" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Restricted route" icon="styles/standard/transport/way/way_secondary.svg">
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Restricted route" />
       <key key="RES_ID" value="1" />
@@ -133,7 +133,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -177,7 +177,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -221,7 +221,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -265,7 +265,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -309,7 +309,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -353,7 +353,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -397,7 +397,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -441,7 +441,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -485,7 +485,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -529,7 +529,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -573,7 +573,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -617,7 +617,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -661,7 +661,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -705,7 +705,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -749,7 +749,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -793,7 +793,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -837,7 +837,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -881,7 +881,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -925,7 +925,7 @@
           <key key="SS_LNSIGN" value="True" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -969,7 +969,7 @@
           <key key="SS_LNSIGN" value="True" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1013,7 +1013,7 @@
           <key key="SS_LNSIGN" value="True" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1057,7 +1057,7 @@
           <key key="SS_LNSIGN" value="True" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1101,7 +1101,7 @@
           <key key="SS_LNSIGN" value="True" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1145,7 +1145,7 @@
           <key key="SS_LNSIGN" value="True" />
           <key key="SS_ARROW" value="True" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1189,7 +1189,7 @@
           <key key="SS_LNSIGN" value="True" />
           <key key="SS_ARROW" value="True" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1233,7 +1233,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="True" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1277,7 +1277,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1321,7 +1321,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1365,7 +1365,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1409,7 +1409,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1453,7 +1453,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1497,7 +1497,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="True" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1541,7 +1541,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="True" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1585,7 +1585,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="True" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1629,7 +1629,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1673,7 +1673,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <check key="SS_DESTN" text="Destination" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1717,7 +1717,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="True" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1761,7 +1761,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1805,7 +1805,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1849,7 +1849,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1893,7 +1893,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1937,7 +1937,7 @@
           <key key="SS_LNSIGN" value="False" />
           <key key="SS_ARROW" value="False" />
           <key key="SS_DESTN" value="False" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -1981,7 +1981,7 @@
           <check key="SS_LNSIGN" text="Line on sign" />
           <check key="SS_ARROW" text="Direction arrow" />
           <check key="SS_DESTN" text="Destination" />
-          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patch" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
@@ -2006,12 +2006,12 @@
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Signal" />
       <key key="SIG_ID" value="1" />
-      <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
       <check key="SIG_HEAD" text="Cycle signal head" />
       <check key="SIG_SEPARA" text="Separate stage for cyclists" />
       <check key="SIG_EARLY" text="Early release" />
       <check key="SIG_SIG_TWOSTG" text="Two stage turn" />
       <check key="SIG_GATE" text="Cycle gate" />
+      <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
