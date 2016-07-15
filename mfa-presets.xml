@@ -111,36 +111,36 @@
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="606 / 609 L" />
           <key key="SS_ID" text="1" />
-          <check key="SS_ROAD"  text="Road marking" />
-          <check key="SS_PATCH" text="Coloured patch on surface" />
-          <check key="SS_FACING" text="Facing off-side" />
-          <text key="SS_DIAG"  text="Sign diagram number" />
-          <check key="SS_NOCYC" text="No cycling" />
-          <check key="SS_NOVEH" text="No vehicles" />
-          <check key="SS_CIRC" text="Circular" />
-          <check key="SS_EXEMPT" text="Exemption" />
-          <check key="SS_NOLEFT" text="No left turn exception" />
-          <check key="SS_NORIGH" text="No right turn exception" />
-          <check key="SS_LEFT" text="Compulsory turn left exception" />
-          <check key="SS_RIGHT" text="Compulsory turn right exception" />
-          <check key="SS_NOEXCE" text="No straight ahead exception	" />
-          <check key="SS_DISMOU" text="Cyclists dismount" />
-          <check key="SS_END" text="End of Route" />
-          <check key="SS_CYCSMB" text="Cycle symbol" />
-          <check key="SS_PEDSMB" text="Pedestrian symbol" />
-          <check key="SS_BUSSMB" text="Bus symbol" />
-          <check key="SS_SMB" text="Other vehicle symbol" />
-          <check key="SS_LNSIGN" text="Line on sign" />
-          <check key="SS_ARROW" text="Direction arrow	" />
-          <check key="SS_DESTN" text="Destination" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
           <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
           <check key="SS_NCN" text="National Cycle Network" />
           <check key="SS_LCN" text="London Cycle Network" />
           <check key="SS_SUPERH" text="Cycle Superhighway" />
           <check key="SS_QUIETW" text="Quietway" />
           <check key="SS_GREENW" text="Greenway" />
-          <check key="SS_ROUTEN" text="Route Number" />
-          <check key="SS_ACCESS" text="Access times" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
@@ -154,170 +154,1850 @@
         <item name="606/ 609 R" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="606 / 609 R" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="612" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="612" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="613" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="613" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="616" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="616" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="617" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="617" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="619" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="619" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="652" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="652" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="810" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="810" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="816" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="816" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="951" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="951" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="953" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="953A" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953A" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="953B" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953B" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="953.1A" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953.1A" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="955" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="955" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="956" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="956" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="956.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="956.1" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="957" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="957" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="958" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="958" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="958.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="958.1" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="959" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="959" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="959.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="959.1" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="960" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="960.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960.1" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="960.2" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960.2" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="965" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="965" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="966" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="966" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="967" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="967" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="1057" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="1057" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="1057.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="1057.1" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="2005.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2005.1" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="2105.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2105.1" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="2106.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2106.1" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="2601.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2601.1" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="2601.2" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2601.2" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="2602.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.1" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="2602.2" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.2" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="2602.3" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.3" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="2606" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2606" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="Bespoke park sign" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Bespoke park sign" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="Greenway" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Greenway" />
+          <key key="SS_ID" text="1" />
+          <key key="SS_ROAD"  value="False" />
+          <key key="SS_PATCH" value="False" />
+          <key key="SS_FACING" value="False" />
+          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_NOCYC" value="False" />
+          <key key="SS_NOVEH" value="False" />
+          <key key="SS_CIRC" value="False" />
+          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_NOLEFT" value="False" />
+          <key key="SS_NORIGH" value="False" />
+          <key key="SS_LEFT" value="False" />
+          <key key="SS_RIGHT" value="False" />
+          <key key="SS_NOEXCE" value="False" />
+          <key key="SS_DISMOU" value="False" />
+          <key key="SS_END" value="False" />
+          <key key="SS_CYCSMB" value="False" />
+          <key key="SS_PEDSMB" value="False" />
+          <key key="SS_BUSSMB" value="False" />
+          <key key="SS_SMB" value="False" />
+          <key key="SS_LNSIGN" value="False" />
+          <key key="SS_ARROW" value="False" />
+          <key key="SS_DESTN" value="False" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="Other Sign" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Other Sign" />
+          <key key="SS_ID" text="1" />
+          <check key="SS_ROAD"  text="Road marking" />
+          <check key="SS_PATCH" text="Coloured patch on surface" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <text key="SS_DIAG"  text="TSRGD sign diagram number" />
+          <check key="SS_NOCYC" text="No cycling" />
+          <check key="SS_NOVEH" text="No vehicles" />
+          <check key="SS_CIRC" text="Circular" />
+          <check key="SS_EXEMPT" text="Exemption" />
+          <check key="SS_NOLEFT" text="No left turn exception" />
+          <check key="SS_NORIGH" text="No right turn exception" />
+          <check key="SS_LEFT" text="Compulsory turn left exception" />
+          <check key="SS_RIGHT" text="Compulsory turn right exception" />
+          <check key="SS_NOEXCE" text="No straight ahead exception" />
+          <check key="SS_DISMOU" text="Cyclists dismount" />
+          <check key="SS_END" text="End of Route" />
+          <check key="SS_CYCSMB" text="Cycle symbol" />
+          <check key="SS_PEDSMB" text="Pedestrian symbol" />
+          <check key="SS_BUSSMB" text="Bus symbol" />
+          <check key="SS_SMB" text="Other vehicle symbol" />
+          <check key="SS_LNSIGN" text="Line on sign" />
+          <check key="SS_ARROW" text="Direction arrow" />
+          <check key="SS_DESTN" text="Destination" />
+          <combo key="SS_NRCOL" values="None,Green,Red,Blue,Buff,Other" text="Colour of route number patc" />
+          <check key="SS_NCN" text="National Cycle Network" />
+          <check key="SS_LCN" text="London Cycle Network" />
+          <check key="SS_SUPERH" text="Cycle Superhighway" />
+          <check key="SS_QUIETW" text="Quietway" />
+          <check key="SS_GREENW" text="Greenway" />
+          <text key="SS_ROUTEN" text="Route Number" />
+          <text key="SS_ACCESS" text="Access times" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
     </group>
     
