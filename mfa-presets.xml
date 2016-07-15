@@ -6,8 +6,8 @@
     link="http://mfatech.org"
     version="0.1">
     
-  <group name="Lines" icon="transport_bicycle.png">
-    <item name="Cycle Lane/Track" icon="https://raw.githubusercontent.com/mihainiculita/mfacore_presets/master/transport_bicycle.png ">
+  <group name="Lines" icon="/Lines.png">
+    <item name="Cycle Lane/Track" icon="/Cycle_Lane.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Cycle Lane/Track" />
@@ -40,7 +40,7 @@
       <text key="COMMENTS" text="Comments" />
     </item>
     
-    <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="ASL" icon="/ASL.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="ASL" />
@@ -62,7 +62,7 @@
       <text key="COMMENTS" text="Comments" />
     </item>
     
-    <item name="Crossing" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Crossing" icon="/crossing.png">
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Crossing" />
       <key key="CRS_ID" value="1" />
@@ -83,7 +83,7 @@
       <text key="COMMENTS" text="Comments" />
     </item>
 
-    <item name="Restricted route" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Restricted route" icon="/restricted_route.png">
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Restricted route" />
       <key key="RES_ID" value="1" />
@@ -105,9 +105,9 @@
     </item>
   </group>
   
-  <group name="Points" icon="styles/standard/transport/way/way_secondary.svg">
+  <group name="Points" icon="/Points.png">
       <group name="Signal/Symbol">
-        <item name="606/ 609 L" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="606/ 609 L" icon="/606_609L.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="606 / 609 L" />
           <key key="SS_ID" value="1" />
@@ -151,7 +151,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="606/ 609 R" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="606/ 609 R" icon="/606_609R.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="606 / 609 R" />
           <key key="SS_ID" value="1" />
@@ -195,7 +195,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="612" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="612" icon="/612.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="612" />
           <key key="SS_ID" value="1" />
@@ -239,7 +239,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="613" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="613" icon="/613.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="613" />
           <key key="SS_ID" value="1" />
@@ -283,7 +283,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="616" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="616" icon="/616.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="616" />
           <key key="SS_ID" value="1" />
@@ -327,7 +327,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="617" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="617" icon="/617.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="617" />
           <key key="SS_ID" value="1" />
@@ -371,7 +371,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="619" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="619" icon="/619.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="619" />
           <key key="SS_ID" value="1" />
@@ -415,7 +415,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="652" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="652" icon="/652.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="652" />
           <key key="SS_ID" value="1" />
@@ -459,7 +459,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="810" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="810" icon="/810.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="810" />
           <key key="SS_ID" value="1" />
@@ -503,7 +503,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="816" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="816" icon="/816.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="816" />
           <key key="SS_ID" value="1" />
@@ -547,7 +547,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="951" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="951" icon="/951.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="951" />
           <key key="SS_ID" value="1" />
@@ -591,7 +591,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="953" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="953" icon="/953.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953" />
           <key key="SS_ID" value="1" />
@@ -635,7 +635,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="953A" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="953A" icon="/953A.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953A" />
           <key key="SS_ID" value="1" />
@@ -679,7 +679,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="953B" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="953B" icon="/953B.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953B" />
           <key key="SS_ID" value="1" />
@@ -723,7 +723,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="953.1A" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="953.1A" icon="/953.1A.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953.1A" />
           <key key="SS_ID" value="1" />
@@ -767,7 +767,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="955" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="955" icon="/955.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="955" />
           <key key="SS_ID" value="1" />
@@ -811,7 +811,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="956" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="956" icon="/956.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="956" />
           <key key="SS_ID" value="1" />
@@ -855,7 +855,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="956.1" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="956.1" icon="/956.1.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="956.1" />
           <key key="SS_ID" value="1" />
@@ -899,7 +899,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="957" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="957" icon="/957.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="957" />
           <key key="SS_ID" value="1" />
@@ -943,7 +943,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="958" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="958" icon="/958.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="958" />
           <key key="SS_ID" value="1" />
@@ -987,7 +987,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="958.1" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="958.1" icon="/958.1.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="958.1" />
           <key key="SS_ID" value="1" />
@@ -1031,7 +1031,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="959" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="959" icon="/959.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="959" />
           <key key="SS_ID" value="1" />
@@ -1075,7 +1075,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="959.1" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="959.1" icon="/959.1.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="959.1" />
           <key key="SS_ID" value="1" />
@@ -1119,7 +1119,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="960" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="960" icon="/960.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960" />
           <key key="SS_ID" value="1" />
@@ -1163,7 +1163,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="960.1" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="960.1" icon="/960.1.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960.1" />
           <key key="SS_ID" value="1" />
@@ -1207,7 +1207,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="960.2" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="960.2" icon="/960.2.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960.2" />
           <key key="SS_ID" value="1" />
@@ -1251,7 +1251,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="965" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="965" icon="/965.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="965" />
           <key key="SS_ID" value="1" />
@@ -1295,7 +1295,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="966" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="966" icon="/966.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="966" />
           <key key="SS_ID" value="1" />
@@ -1339,7 +1339,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="967" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="967" icon="/967.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="967" />
           <key key="SS_ID" value="1" />
@@ -1383,7 +1383,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="1057" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="1057" icon="/1057.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="1057" />
           <key key="SS_ID" value="1" />
@@ -1427,7 +1427,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="1057.1" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="1057.1" icon="/1057.1.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="1057.1" />
           <key key="SS_ID" value="1" />
@@ -1471,7 +1471,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="2005.1" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="2005.1" icon="/2005.1.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2005.1" />
           <key key="SS_ID" value="1" />
@@ -1515,7 +1515,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="2105.1" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="2105.1" icon="/2105.1.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2105.1" />
           <key key="SS_ID" value="1" />
@@ -1559,7 +1559,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="2106.1" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="2106.1" icon="/2106.1.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2106.1" />
           <key key="SS_ID" value="1" />
@@ -1603,7 +1603,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="2601.1" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="2601.1" icon="/2601.1.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2601.1" />
           <key key="SS_ID" value="1" />
@@ -1647,7 +1647,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="2601.2" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="2601.2" icon="/2601.2.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2601.2" />
           <key key="SS_ID" value="1" />
@@ -1691,7 +1691,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="2602.1" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="2602.1" icon="/2602.1.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.1" />
           <key key="SS_ID" value="1" />
@@ -1735,7 +1735,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="2602.2" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="2602.2" icon="/2602.2.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.2" />
           <key key="SS_ID" value="1" />
@@ -1779,7 +1779,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="2602.3" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="2602.3" icon="/2602.3.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.3" />
           <key key="SS_ID" value="1" />
@@ -1823,7 +1823,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="2606" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="2606" icon="/2606.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2606" />
           <key key="SS_ID" value="1" />
@@ -1867,7 +1867,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="Bespoke park sign" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="Bespoke park sign">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Bespoke park sign" />
           <key key="SS_ID" value="1" />
@@ -1911,7 +1911,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="Greenway" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="Greenway">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Greenway" />
           <key key="SS_ID" value="1" />
@@ -1955,7 +1955,7 @@
           <key key="UPNAME" value="Checker" />
           <text key="COMMENTS" text="Comments" />
         </item>
-        <item name="Other Sign" icon="styles/standard/transport/way/way_secondary.svg">
+        <item name="Other Sign">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Other Sign" />
           <key key="SS_ID" value="1" />
@@ -2001,7 +2001,7 @@
         </item>
     </group>
     
-    <item name="Signal" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Signal" icon="/signal.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Signal" />
@@ -2023,7 +2023,7 @@
       <text key="COMMENTS" text="Comments" />
     </item>
     
-    <item name="Traffic calming" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Traffic calming" icon="/traffic_calming.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Traffic calming" />
@@ -2048,7 +2048,7 @@
       <text key="COMMENTS" text="Comments" />
     </item>
     
-    <item name="Restricted route" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Restricted route" icon="/restricted_route.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Restricted route" />
@@ -2067,7 +2067,7 @@
       <text key="COMMENTS" text="Comments" />
     </item>
     
-    <item name="Cycle Parking" icon="styles/standard/transport/way/way_secondary.svg">
+    <item name="Cycle Parking" icon="/cycle_parking.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Cycle Parking" />
