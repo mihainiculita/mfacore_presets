@@ -9,9 +9,9 @@
   <group name="Lines" icon="transport_bicycle.png">
     <item name="Cycle Lane/Track" icon="transport_bicycle.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
-      <key key="FEATURE_ID" value="o" />
+      <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Cycle Lane/Track" />
-      <keyt key="CLT_ID" text="" />
+      <keyt key="CLT_ID" text="1" />
       <check key="CLT_CARR"  text="On / Off Carriageway"  default="on"  />
       <check key="CLT_SEGREG" text="Segregated lane / track" />
       <check key="CLT_STEPP" text="Stepped lane / track" />
@@ -29,81 +29,80 @@
       <check key="CLT_FPTIME" text="Full-time / Part-time" />
       <text key="CLT_ACCESS" text="Access times" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <key key="SVDATE" value="o" />
+      <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
-      <key key="SVNAME" value="o" />
-      <key key="QADATE" values_from="String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());System.out.println(mydate);" />
-      <key key="QANAME" value="o" />
-      <key key="DPNO" value="o" />
-      <key key="UPDATE" value="o" />
-      <key key="UPNAME" value="o" />
+      <key key="SVNAME" value="Surveyor" />
+      <key key="QADATE" values="00/00/2016" />
+      <key key="QANAME" value="Technician" />
+      <key key="DPNO" value="1" />
+      <key key="UPDATE" value="00/00/2016" />
+      <key key="UPNAME" value="Checker" />
       <text key="COMMENTS" text="Comments" />
     </item>
     
     <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
-      <key key="FEATURE_ID" value="" />
+      <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="ASL" />
-      <text key="ASL_ID" text="Advanced Stop Line ID" />
+      <text key="ASL_ID" text="1" />
       <check key="ASL_FDR"  text="Feeder lane	" />
       <check key="ASL_FDRLFT" text="Feeder lane on left" />
       <check key="ASL_FDCENT" text="Feeder Lane in centre" />
       <check key="ASL_FDRIGH"  text="Feeder lane on right" />
       <check key="ASL_SHARED" text="Shared nearside lane" />
       <text key="ASL_SVDATE" text="Survey Date" />
-      <text key="ASL_SVTIME" text="Survey Time" />
-      <text key="ASL_SVNAME" text="Surveyor Name" />
-      <text key="ASL_QADATE" text="Field Survey QA Date" />
-      <text key="ASL_QANAME" text="Field Survey QA by" />
-      <text key="ASL_DPNO" text="Data package number" />
-      <text key="ASL_UPDATE" text="Update date" />
-      <text key="ASL_UPNAME" text="Update by" />
-      <text key="COMMENTS" text="Comment" />
-      <combo key="ASL_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Surface Colour" />
+      <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <key key="SVDATE" value="00/00/2016" />
+      <text key="SVTIME" text="Survey Time" />
+      <key key="SVNAME" value="Surveyor" />
+      <key key="QADATE" values="00/00/2016" />
+      <key key="QANAME" value="Technician" />
+      <key key="DPNO" value="1" />
+      <key key="UPDATE" value="00/00/2016" />
+      <key key="UPNAME" value="Checker" />
+      <text key="COMMENTS" text="Comments" />
     </item>
     
     <item name="Crossing" icon="styles/standard/transport/way/way_secondary.svg">
       <label text="Edit Crossing Attributes" />
       <key key="TYPE" value="Crossing" />
-      <text key="CRS_ID" text="Crossing ID" />
+      <text key="CRS_ID" text="1" />
       <check key="CRS_SIGNAL"  text="Signal controlled crossing" />
       <check key="CRS_SEGREG" text="Segregated cycles and pedestrians" />
       <check key="CRS_CYGAP" text="Cycle gap" />
       <check key="CRS_PEDEST"  text="Pedestrian Only Crossing" />
       <check key="CRS_LEVEL" text="Level Crossing" />
-      <text key="CRS_SVDATE" text="Survey Date" />
-      <text key="CRS_SVTIME" text="Survey Time" />
-      <text key="CRS_SVNAME" text="Surveyor Name" />
-      <text key="CRS_QADATE" text="Field Survey QA Date" />
-      <text key="CRS_QANAME" text="Field Survey QA by" />
-      <text key="CRS_DPNO" text="Data package number" />
-      <text key="CRS_UPDATE" text="Update date" />
-      <text key="CRS_UPNAME" text="Update by" />
-      <text key="COMMENTS" text="Comment" />
-      <combo key="CRS_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Surface Colour" />
+      <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <key key="SVDATE" value="00/00/2016" />
+      <text key="SVTIME" text="Survey Time" />
+      <key key="SVNAME" value="Surveyor" />
+      <key key="QADATE" values="00/00/2016" />
+      <key key="QANAME" value="Technician" />
+      <key key="DPNO" value="1" />
+      <key key="UPDATE" value="00/00/2016" />
+      <key key="UPNAME" value="Checker" />
+      <text key="COMMENTS" text="Comments" />
     </item>
 
     <item name="RestrRout" icon="styles/standard/transport/way/way_secondary.svg">
       <label text="Edit Restricted route Attributes" />
       <key key="TYPE" value="Restricted route" />
-      <text key="TYPE" text="Type" default="Restricted route" />
-      <text key="RES_ID" text="Restricted route ID" />
+      <text key="RES_ID" text="1" />
       <check key="RES_PEDEST"  text="Pedestrian only route" />
       <check key="RES_BRIDGE" text="Pedestrian bridge" />
       <check key="RES_TUNNEL" text="Pedestrian tunnel" />
       <check key="RES_STEPS"  text="Steps" />
       <check key="RES_LIFT" text="Lift" />
-      <text key="RES_COLOUR" text="Surface colour" />
-      <text key="RES_SVDATE" text="Survey Date" />
-      <text key="RES_SVTIME" text="Survey Time" />
-      <text key="RES_SVNAME" text="Surveyor Name" />
-      <text key="RES_QADATE" text="Field Survey QA Date" />
-      <text key="RES_QANAME" text="Field Survey QA by" />
-      <text key="RES_DPNO" text="Data package number" />
-      <text key="RES_UPDATE" text="Update date" />
-      <text key="RES_UPNAME" text="Update by" />
-      <text key="COMMENTS" text="Comment" />
-      <combo key="RES_COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <key key="SVDATE" value="00/00/2016" />
+      <text key="SVTIME" text="Survey Time" />
+      <key key="SVNAME" value="Surveyor" />
+      <key key="QADATE" values="00/00/2016" />
+      <key key="QANAME" value="Technician" />
+      <key key="DPNO" value="1" />
+      <key key="UPDATE" value="00/00/2016" />
+      <key key="UPNAME" value="Checker" />
+      <text key="COMMENTS" text="Comments" />
     </item>
   </group>
   
@@ -277,87 +276,67 @@
     </group>
     
     <item name="Signal" icon="styles/standard/transport/way/way_secondary.svg">
-      <key key="vfrreportingpoint" value="yes" />
-      <label text="Edit VFR Reporting Point" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
-      <space />
-
-      <!-- NAMES AND REF -->
-      <text key="name" text="Name" />
-      <text key="longname" text="Long name" />
-      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
-      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
-
-      <!-- HEIGHT -->
-      <text key="height" text="Height" description="Height (number)"/>
-      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
-      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
-
-      <!-- COMMUNICATION -->
-      <text key="comm:ctrl" text="CTRL freq." description="Frequency to the authority ascosiated with this control point." />
+      <key key="FEATURE_ID" value="1" />
+      <key key="TYPE" value="Signal" />
+      <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <key key="SVDATE" value="00/00/2016" />
+      <text key="SVTIME" text="Survey Time" />
+      <key key="SVNAME" value="Surveyor" />
+      <key key="QADATE" values="00/00/2016" />
+      <key key="QANAME" value="Technician" />
+      <key key="DPNO" value="1" />
+      <key key="UPDATE" value="00/00/2016" />
+      <key key="UPNAME" value="Checker" />
+      <text key="COMMENTS" text="Comments" />
     </item>
     
     <item name="Traffic calming" icon="styles/standard/transport/way/way_secondary.svg">
-      <key key="vfrreportingpoint" value="yes" />
-      <label text="Edit VFR Reporting Point" />
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
-      <space />
-
-      <!-- NAMES AND REF -->
-      <text key="name" text="Name" />
-      <text key="longname" text="Long name" />
-      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
-      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
-
-      <!-- HEIGHT -->
-      <text key="height" text="Height" description="Height (number)"/>
-      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
-      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
-
-      <!-- COMMUNICATION -->
-      <text key="comm:ctrl" text="CTRL freq." description="Frequency to the authority ascosiated with this control point." />
+      <key key="FEATURE_ID" value="1" />
+      <key key="TYPE" value="Traffic calming" />
+      <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <key key="SVDATE" value="00/00/2016" />
+      <text key="SVTIME" text="Survey Time" />
+      <key key="SVNAME" value="Surveyor" />
+      <key key="QADATE" values="00/00/2016" />
+      <key key="QANAME" value="Technician" />
+      <key key="DPNO" value="1" />
+      <key key="UPDATE" value="00/00/2016" />
+      <key key="UPNAME" value="Checker" />
+      <text key="COMMENTS" text="Comments" />
     </item>
     
-    <item name="Restr rt" icon="styles/standard/transport/way/way_secondary.svg">
-      <key key="vfrreportingpoint" value="yes" />
-      <label text="Edit VFR Reporting Point" />
+    <item name="Restricted route" icon="styles/standard/transport/way/way_secondary.svg">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
-      <space />
-
-      <!-- NAMES AND REF -->
-      <text key="name" text="Name" />
-      <text key="longname" text="Long name" />
-      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
-      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
-
-      <!-- HEIGHT -->
-      <text key="height" text="Height" description="Height (number)"/>
-      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
-      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
-
-      <!-- COMMUNICATION -->
-      <text key="comm:ctrl" text="CTRL freq." description="Frequency to the authority ascosiated with this control point." />
+      <key key="FEATURE_ID" value="1" />
+      <key key="TYPE" value="Restricted route" />
+      <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <key key="SVDATE" value="00/00/2016" />
+      <text key="SVTIME" text="Survey Time" />
+      <key key="SVNAME" value="Surveyor" />
+      <key key="QADATE" values="00/00/2016" />
+      <key key="QANAME" value="Technician" />
+      <key key="DPNO" value="1" />
+      <key key="UPDATE" value="00/00/2016" />
+      <key key="UPNAME" value="Checker" />
+      <text key="COMMENTS" text="Comments" />
     </item>
     
-    <item name="CucParkng" icon="styles/standard/transport/way/way_secondary.svg">
-      <key key="vfrreportingpoint" value="yes" />
-      <label text="Edit VFR Reporting Point" />
+    <item name="Cycle Parking" icon="styles/standard/transport/way/way_secondary.svg">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
-      <space />
-
-      <!-- NAMES AND REF -->
-      <text key="name" text="Name" />
-      <text key="longname" text="Long name" />
-      <text key="ref"  text="Reference number" description="The official reference number of this entity."/>
-      <text key="url" text="URL" description="An internet URL to where you got information about this feature" />
-
-      <!-- HEIGHT -->
-      <text key="height" text="Height" description="Height (number)"/>
-      <combo key="height:unit" text="Height Unit" values="ft,fl,m" description="Height Unit (feet, flight level or meters)" />
-      <combo key="height:class" text="Height Class" values="amsl,agl" description="Height Class (Above Mean Sea Level, Above Ground Level)" />
-
-      <!-- COMMUNICATION -->
-      <text key="comm:ctrl" text="CTRL freq." description="Frequency to the authority ascosiated with this control point." />
+      <key key="FEATURE_ID" value="1" />
+      <key key="TYPE" value="Cycle Parking" />
+      <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <key key="SVDATE" value="00/00/2016" />
+      <text key="SVTIME" text="Survey Time" />
+      <key key="SVNAME" value="Surveyor" />
+      <key key="QADATE" values="00/00/2016" />
+      <key key="QANAME" value="Technician" />
+      <key key="DPNO" value="1" />
+      <key key="UPDATE" value="00/00/2016" />
+      <key key="UPNAME" value="Checker" />
+      <text key="COMMENTS" text="Comments" />
     </item>
   </group>
 </presets>
