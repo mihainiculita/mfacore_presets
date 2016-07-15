@@ -44,13 +44,12 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="ASL" />
-      <text key="ASL_ID" text="1" />
+      <key key="ASL_ID" text="1" />
       <check key="ASL_FDR"  text="Feeder lane	" />
       <check key="ASL_FDRLFT" text="Feeder lane on left" />
       <check key="ASL_FDCENT" text="Feeder Lane in centre" />
       <check key="ASL_FDRIGH"  text="Feeder lane on right" />
       <check key="ASL_SHARED" text="Shared nearside lane" />
-      <text key="ASL_SVDATE" text="Survey Date" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
@@ -64,9 +63,9 @@
     </item>
     
     <item name="Crossing" icon="styles/standard/transport/way/way_secondary.svg">
-      <label text="Edit Crossing Attributes" />
+      <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Crossing" />
-      <text key="CRS_ID" text="1" />
+      <key key="CRS_ID" text="1" />
       <check key="CRS_SIGNAL"  text="Signal controlled crossing" />
       <check key="CRS_SEGREG" text="Segregated cycles and pedestrians" />
       <check key="CRS_CYGAP" text="Cycle gap" />
@@ -85,9 +84,9 @@
     </item>
 
     <item name="RestrRout" icon="styles/standard/transport/way/way_secondary.svg">
-      <label text="Edit Restricted route Attributes" />
+      <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Restricted route" />
-      <text key="RES_ID" text="1" />
+      <key key="RES_ID" text="1" />
       <check key="RES_PEDEST"  text="Pedestrian only route" />
       <check key="RES_BRIDGE" text="Pedestrian bridge" />
       <check key="RES_TUNNEL" text="Pedestrian tunnel" />
@@ -109,8 +108,9 @@
   <group name="Points" icon="styles/standard/transport/way/way_secondary.svg">
       <group name="Signal/Symbol">
         <item name="606/ 609 L" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="606 / 609 L" />
-          <text key="SS_ID" text="Signage ID" />
+          <key key="SS_ID" text="1" />
           <check key="SS_ROAD"  text="Road marking" />
           <check key="SS_PATCH" text="Coloured patch on surface" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -141,137 +141,183 @@
           <check key="SS_GREENW" text="Greenway" />
           <check key="SS_ROUTEN" text="Route Number" />
           <check key="SS_ACCESS" text="Access times" />
-          <text key="SS_SVTIME" text="Survey Time" />
-          <text key="SS_SVNAME" text="Surveyor Name" />
-          <text key="SS_QADATE" text="Field Survey QA Date" />
-          <text key="SS_QANAME" text="Field Survey QA by" />
-          <text key="SS_DPNO" text="Data package number" />
-          <text key="SS_UPDATE" text="Update date" />
-          <text key="SS_UPNAME" text="Update by" />
-          <text key="COMMENTS" text="Comment" />
+          <key key="SVDATE" value="00/00/2016" />
+          <text key="SVTIME" text="Survey Time" />
+          <key key="SVNAME" value="Surveyor" />
+          <key key="QADATE" values="00/00/2016" />
+          <key key="QANAME" value="Technician" />
+          <key key="DPNO" value="1" />
+          <key key="UPDATE" value="00/00/2016" />
+          <key key="UPNAME" value="Checker" />
+          <text key="COMMENTS" text="Comments" />
         </item>
         <item name="606/ 609 R" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="606 / 609 R" />
         </item>
         <item name="612" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="612" />
         </item>
         <item name="613" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="613" />
         </item>
         <item name="616" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="616" />
         </item>
         <item name="617" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="617" />
         </item>
         <item name="619" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="619" />
         </item>
         <item name="652" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="652" />
         </item>
         <item name="810" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="810" />
         </item>
         <item name="816" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="816" />
         </item>
         <item name="951" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="951" />
         </item>
         <item name="953" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953" />
         </item>
         <item name="953A" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953A" />
         </item>
         <item name="953B" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953B" />
         </item>
         <item name="953.1A" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953.1A" />
         </item>
         <item name="955" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="955" />
         </item>
         <item name="956" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="956" />
         </item>
         <item name="956.1" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="956.1" />
         </item>
         <item name="957" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="957" />
         </item>
         <item name="958" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="958" />
         </item>
         <item name="958.1" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="958.1" />
         </item>
         <item name="959" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="959" />
         </item>
         <item name="959.1" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="959.1" />
         </item>
         <item name="960" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960" />
         </item>
         <item name="960.1" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960.1" />
         </item>
         <item name="960.2" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960.2" />
         </item>
         <item name="965" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="965" />
         </item>
         <item name="966" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="966" />
         </item>
         <item name="967" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="967" />
         </item>
         <item name="1057" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="1057" />
         </item>
         <item name="1057.1" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="1057.1" />
         </item>
         <item name="2005.1" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2005.1" />
         </item>
         <item name="2105.1" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2105.1" />
         </item>
         <item name="2106.1" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2106.1" />
         </item>
         <item name="2601.1" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2601.1" />
         </item>
         <item name="2601.2" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2601.2" />
         </item>
         <item name="2602.1" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.1" />
         </item>
         <item name="2602.2" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.2" />
         </item>
         <item name="2602.3" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.3" />
         </item>
         <item name="2606" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2606" />
         </item>
         <item name="Bespoke park sign" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Bespoke park sign" />
         </item>
         <item name="Greenway" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Greenway" />
+        </item>
+        <item name="Other Sign" icon="styles/standard/transport/way/way_secondary.svg">
+          <key key="FEATURE_ID" value="1" />
+          <key key="TYPE" value="Other Sign" />
         </item>
     </group>
     
@@ -279,7 +325,13 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Signal" />
+      <key key="SIG_ID" value="1" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
+      <check key="SIG_HEAD" text="Cycle signal head" />
+      <check key="SIG_SEPARA" text="Separate stage for cyclists" />
+      <check key="SIG_EARLY" text="Early release" />
+      <check key="SIG_SIG_TWOSTG" text="Two stage turn" />
+      <check key="SIG_GATE" text="Cycle gate" />
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
@@ -295,6 +347,15 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Traffic calming" />
+      <key key="TRF_ID" text="1" />
+      <check key="TRF_RAISED" text="Raised table" />
+      <check key="TRF_ENTRY" text="Side road entry treatment" />
+      <check key="TRF_CRUSHI" text="Speed cushions" />
+      <check key="TRF_HUMP" text="Speed hump" />
+      <check key="TRF_SINUSO" text="Sinusoidal" />
+      <check key="TRF_BARIER" text="Barrier	" />
+      <check key="TRF_NAROW" text="Carriageway narrowing" />
+      <check key="TRF_CALM" text="Other traffic calming" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
@@ -311,6 +372,9 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Restricted route" />
+      <key key="RST_ID" text="1" />
+      <check key="RST_STEPS" text="Steps" />
+      <check key="RST_LIFT" text="Lift" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
@@ -327,6 +391,24 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Cycle Parking" />
+      <key key="PRK_ID" text="1" />
+      <check key="PRK_CARR" text="Carriageway" />
+      <check key="PRK_COVER" text="Covered" />
+      <check key="PRK_SECURE" text="Secure" />
+      <check key="PRK_LOCKER" text="Locker" />
+      <check key="PRK_SHEFF" text="Sheffield" />
+      <check key="PRK_MSTAND" text="M stand" />
+      <check key="PRK_PSTAND" text="P stand" />
+      <check key="PRK_FSTAND" text="Fin stand" />
+      <check key="PRK_HOOP" text="Cyclehoop" />
+      <check key="PRK_POST" text="Post" />
+      <check key="PRK_BUTERF" text="Butterfly" />
+      <check key="PRK_WHEEL" text="Wheel rack" />
+      <check key="PRK_HANGAR" text="Bike hangar" />
+      <check key="PRK_TIER" text="Two tier" />
+      <check key="PRK_OTHER" text="Other / unknown" />
+      <text key="PRK_PROVIS" text="Provision" />
+      <text key="PRK_CPT" text="Capacity" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
