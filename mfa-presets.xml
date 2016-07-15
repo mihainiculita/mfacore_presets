@@ -7,7 +7,7 @@
     version="0.1">
     
   <group name="Lines" icon="transport_bicycle.png">
-    <item name="Cycle Lane/Track" icon="transport_bicycle.png">
+    <item name="Cycle Lane/Track" icon="https://raw.githubusercontent.com/mihainiculita/mfacore_presets/master/transport_bicycle.png ">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Cycle Lane/Track" />
@@ -2009,7 +2009,7 @@
       <check key="SIG_HEAD" text="Cycle signal head" />
       <check key="SIG_SEPARA" text="Separate stage for cyclists" />
       <check key="SIG_EARLY" text="Early release" />
-      <check key="SIG_SIG_TWOSTG" text="Two stage turn" />
+      <check key="SIG_TWOSTG" text="Two stage turn" />
       <check key="SIG_GATE" text="Cycle gate" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
       <key key="SVDATE" value="00/00/2016" />
