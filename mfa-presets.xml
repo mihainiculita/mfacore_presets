@@ -12,7 +12,7 @@
       <key key="FEATURE_ID" value="" />
       <key key="TYPE" value="Cycle Lane/Track" />
       <keyt key="CLT_ID" text="" />
-      <checkgroup columns="2">
+      <checkgroup columns="4">
         <check key="CLT_CARR"  text="On / Off Carriageway"  default="on"  />
         <check key="CLT_SEGREG" text="Segregated lane / track" />
       </checkgroup>
@@ -31,15 +31,15 @@
       <check key="CLT_FPTIME" text="Full-time / Part-time" />
       <text key="CLT_ACCESS" text="Access times" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <text key="SVDATE" value="" />
-      <text key="SVTIME" value="" />
-      <text key="SVNAME" value="" />
-      <text key="QADATE" value="" />
-      <text key="QANAME" value="" />
-      <text key="DPNO" value="" />
-      <text key="UPDATE" value="" />
-      <text key="UPNAME" value="" />
-      <text key="COMMENTS" value="" />
+      <key key="SVDATE" value="" />
+      <text key="SVTIME" text="Survey Time" />
+      <key key="SVNAME" value="" />
+      <key key="QADATE" value="" />
+      <key key="QANAME" value="" />
+      <key key="DPNO" value="" />
+      <key key="UPDATE" value="" />
+      <key key="UPNAME" value="" />
+      <key key="COMMENTS" value="" />
     </item>
     
     <item name="ASL" icon="styles/standard/transport/way/way_secondary.svg">
