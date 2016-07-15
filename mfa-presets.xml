@@ -11,7 +11,7 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Cycle Lane/Track" />
-      <keyt key="CLT_ID" text="1" />
+      <key key="CLT_ID" value="1" />
       <check key="CLT_CARR"  text="On / Off Carriageway"  default="on"  />
       <check key="CLT_SEGREG" text="Segregated lane / track" />
       <check key="CLT_STEPP" text="Stepped lane / track" />
@@ -32,7 +32,7 @@
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
-      <key key="QADATE" values="00/00/2016" />
+      <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
       <key key="DPNO" value="1" />
       <key key="UPDATE" value="00/00/2016" />
@@ -44,7 +44,7 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="ASL" />
-      <key key="ASL_ID" text="1" />
+      <key key="ASL_ID" value="1" />
       <check key="ASL_FDR"  text="Feeder lane	" />
       <check key="ASL_FDRLFT" text="Feeder lane on left" />
       <check key="ASL_FDCENT" text="Feeder Lane in centre" />
@@ -54,7 +54,7 @@
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
-      <key key="QADATE" values="00/00/2016" />
+      <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
       <key key="DPNO" value="1" />
       <key key="UPDATE" value="00/00/2016" />
@@ -65,7 +65,7 @@
     <item name="Crossing" icon="styles/standard/transport/way/way_secondary.svg">
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Crossing" />
-      <key key="CRS_ID" text="1" />
+      <key key="CRS_ID" value="1" />
       <check key="CRS_SIGNAL"  text="Signal controlled crossing" />
       <check key="CRS_SEGREG" text="Segregated cycles and pedestrians" />
       <check key="CRS_CYGAP" text="Cycle gap" />
@@ -75,7 +75,7 @@
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
-      <key key="QADATE" values="00/00/2016" />
+      <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
       <key key="DPNO" value="1" />
       <key key="UPDATE" value="00/00/2016" />
@@ -86,7 +86,7 @@
     <item name="RestrRout" icon="styles/standard/transport/way/way_secondary.svg">
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Restricted route" />
-      <key key="RES_ID" text="1" />
+      <key key="RES_ID" value="1" />
       <check key="RES_PEDEST"  text="Pedestrian only route" />
       <check key="RES_BRIDGE" text="Pedestrian bridge" />
       <check key="RES_TUNNEL" text="Pedestrian tunnel" />
@@ -96,7 +96,7 @@
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
-      <key key="QADATE" values="00/00/2016" />
+      <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
       <key key="DPNO" value="1" />
       <key key="UPDATE" value="00/00/2016" />
@@ -110,7 +110,7 @@
         <item name="606/ 609 L" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="606 / 609 L" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -144,7 +144,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -154,7 +154,7 @@
         <item name="606/ 609 R" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="606 / 609 R" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -188,7 +188,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -198,7 +198,7 @@
         <item name="612" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="612" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -232,7 +232,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -242,7 +242,7 @@
         <item name="613" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="613" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -276,7 +276,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -286,7 +286,7 @@
         <item name="616" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="616" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -320,7 +320,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -330,7 +330,7 @@
         <item name="617" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="617" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -364,7 +364,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -374,7 +374,7 @@
         <item name="619" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="619" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -408,7 +408,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -418,7 +418,7 @@
         <item name="652" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="652" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -452,7 +452,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -462,7 +462,7 @@
         <item name="810" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="810" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -496,7 +496,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -506,7 +506,7 @@
         <item name="816" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="816" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -540,7 +540,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -550,7 +550,7 @@
         <item name="951" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="951" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -584,7 +584,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -594,7 +594,7 @@
         <item name="953" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -628,7 +628,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -638,7 +638,7 @@
         <item name="953A" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953A" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -672,7 +672,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -682,7 +682,7 @@
         <item name="953B" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953B" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -716,7 +716,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -726,7 +726,7 @@
         <item name="953.1A" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="953.1A" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -760,7 +760,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -770,7 +770,7 @@
         <item name="955" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="955" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -804,7 +804,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -814,7 +814,7 @@
         <item name="956" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="956" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -848,7 +848,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -858,7 +858,7 @@
         <item name="956.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="956.1" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -892,7 +892,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -902,7 +902,7 @@
         <item name="957" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="957" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -936,7 +936,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -946,7 +946,7 @@
         <item name="958" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="958" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -980,7 +980,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -990,7 +990,7 @@
         <item name="958.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="958.1" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1024,7 +1024,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1034,7 +1034,7 @@
         <item name="959" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="959" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1068,7 +1068,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1078,7 +1078,7 @@
         <item name="959.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="959.1" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1112,7 +1112,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1122,7 +1122,7 @@
         <item name="960" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1156,7 +1156,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1166,7 +1166,7 @@
         <item name="960.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960.1" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -1200,7 +1200,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1210,7 +1210,7 @@
         <item name="960.2" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="960.2" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1244,7 +1244,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1254,7 +1254,7 @@
         <item name="965" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="965" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -1288,7 +1288,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1298,7 +1298,7 @@
         <item name="966" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="966" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1332,7 +1332,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1342,7 +1342,7 @@
         <item name="967" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="967" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1376,7 +1376,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1386,7 +1386,7 @@
         <item name="1057" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="1057" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="True" />
           <check key="SS_PATCH" text="Coloured patch on surface" />
           <key key="SS_FACING" value="False" />
@@ -1420,7 +1420,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1430,7 +1430,7 @@
         <item name="1057.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="1057.1" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="True" />
           <check key="SS_PATCH" text="Coloured patch on surface" />
           <key key="SS_FACING" value="False" />
@@ -1464,7 +1464,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1474,7 +1474,7 @@
         <item name="2005.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2005.1" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -1508,7 +1508,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1518,7 +1518,7 @@
         <item name="2105.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2105.1" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -1552,7 +1552,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1562,7 +1562,7 @@
         <item name="2106.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2106.1" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -1596,7 +1596,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1606,7 +1606,7 @@
         <item name="2601.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2601.1" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -1640,7 +1640,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1650,7 +1650,7 @@
         <item name="2601.2" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2601.2" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1684,7 +1684,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1694,7 +1694,7 @@
         <item name="2602.1" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.1" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -1728,7 +1728,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1738,7 +1738,7 @@
         <item name="2602.2" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.2" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1772,7 +1772,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1782,7 +1782,7 @@
         <item name="2602.3" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2602.3" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1816,7 +1816,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1826,7 +1826,7 @@
         <item name="2606" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="2606" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -1860,7 +1860,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1870,7 +1870,7 @@
         <item name="Bespoke park sign" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Bespoke park sign" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1904,7 +1904,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1914,7 +1914,7 @@
         <item name="Greenway" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Greenway" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <check key="SS_ROAD"  text="Road marking" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
@@ -1948,7 +1948,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -1958,7 +1958,7 @@
         <item name="Other Sign" icon="styles/standard/transport/way/way_secondary.svg">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="Other Sign" />
-          <key key="SS_ID" text="1" />
+          <key key="SS_ID" value="1" />
           <check key="SS_ROAD"  text="Road marking" />
           <check key="SS_PATCH" text="Coloured patch on surface" />
           <check key="SS_FACING" text="Facing off-side" />
@@ -1992,7 +1992,7 @@
           <key key="SVDATE" value="00/00/2016" />
           <text key="SVTIME" text="Survey Time" />
           <key key="SVNAME" value="Surveyor" />
-          <key key="QADATE" values="00/00/2016" />
+          <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
           <key key="DPNO" value="1" />
           <key key="UPDATE" value="00/00/2016" />
@@ -2015,7 +2015,7 @@
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
-      <key key="QADATE" values="00/00/2016" />
+      <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
       <key key="DPNO" value="1" />
       <key key="UPDATE" value="00/00/2016" />
@@ -2027,7 +2027,7 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Traffic calming" />
-      <key key="TRF_ID" text="1" />
+      <key key="TRF_ID" value="1" />
       <check key="TRF_RAISED" text="Raised table" />
       <check key="TRF_ENTRY" text="Side road entry treatment" />
       <check key="TRF_CRUSHI" text="Speed cushions" />
@@ -2040,7 +2040,7 @@
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
-      <key key="QADATE" values="00/00/2016" />
+      <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
       <key key="DPNO" value="1" />
       <key key="UPDATE" value="00/00/2016" />
@@ -2052,14 +2052,14 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Restricted route" />
-      <key key="RST_ID" text="1" />
+      <key key="RST_ID" value="1" />
       <check key="RST_STEPS" text="Steps" />
       <check key="RST_LIFT" text="Lift" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
-      <key key="QADATE" values="00/00/2016" />
+      <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
       <key key="DPNO" value="1" />
       <key key="UPDATE" value="00/00/2016" />
@@ -2071,7 +2071,7 @@
       <link href="http://wiki.openaviationmap.org/wiki/index.php/VfrReportingPoint" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Cycle Parking" />
-      <key key="PRK_ID" text="1" />
+      <key key="PRK_ID" value="1" />
       <check key="PRK_CARR" text="Carriageway" />
       <check key="PRK_COVER" text="Covered" />
       <check key="PRK_SECURE" text="Secure" />
@@ -2093,7 +2093,7 @@
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
-      <key key="QADATE" values="00/00/2016" />
+      <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
       <key key="DPNO" value="1" />
       <key key="UPDATE" value="00/00/2016" />
