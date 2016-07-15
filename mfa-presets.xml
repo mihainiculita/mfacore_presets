@@ -113,15 +113,15 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
+          <check key="SS_FACING" text="Facing off-side" />
           <key key="SS_DIAG"  value="606/ 609 L" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
-          <key key="SS_CIRC" value="False" />
-          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_CIRC" value="True" />
+          <key key="SS_EXEMPT" value="True" />
           <key key="SS_NOLEFT" value="False" />
           <key key="SS_NORIGH" value="False" />
-          <key key="SS_LEFT" value="False" />
+          <key key="SS_LEFT" value="True" />
           <key key="SS_RIGHT" value="False" />
           <key key="SS_NOEXCE" value="False" />
           <key key="SS_DISMOU" value="False" />
@@ -157,16 +157,16 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="606/ 609 R" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
-          <key key="SS_CIRC" value="False" />
-          <key key="SS_EXEMPT" value="False" />
+          <key key="SS_CIRC" value="True" />
+          <key key="SS_EXEMPT" value="True" />
           <key key="SS_NOLEFT" value="False" />
           <key key="SS_NORIGH" value="False" />
           <key key="SS_LEFT" value="False" />
-          <key key="SS_RIGHT" value="False" />
+          <key key="SS_RIGHT" value="True" />
           <key key="SS_NOEXCE" value="False" />
           <key key="SS_DISMOU" value="False" />
           <key key="SS_END" value="False" />
@@ -201,8 +201,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="612" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -245,8 +245,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="613" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -289,8 +289,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="616" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -333,8 +333,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="617" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -377,8 +377,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="619" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -421,8 +421,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="652" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -465,8 +465,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="810" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -509,8 +509,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="816" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -554,7 +554,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="951" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -597,8 +597,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="953" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -641,8 +641,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="953A" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -685,8 +685,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="953B" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -729,8 +729,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="953.1A" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -774,7 +774,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="955" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -818,7 +818,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="956" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -862,7 +862,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="956.1" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -906,7 +906,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="957" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -950,7 +950,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="958" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -994,7 +994,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="958.1" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1038,7 +1038,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="959" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1082,7 +1082,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="959.1" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1126,7 +1126,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="960" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1169,8 +1169,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="960.1" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1214,7 +1214,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="960.2" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1257,8 +1257,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="965" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1302,7 +1302,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="966" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1346,7 +1346,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="967" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1390,7 +1390,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="1057" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1434,7 +1434,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="1057.1" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1477,8 +1477,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="2005.1" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1521,8 +1521,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="2105.1" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1565,8 +1565,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="2106.1" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1609,8 +1609,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="2601.1" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1654,7 +1654,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="2601.2" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1697,8 +1697,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="2602.1" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1742,7 +1742,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="2602.2" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1786,7 +1786,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="2602.3" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1829,8 +1829,8 @@
           <key key="SS_ID" text="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <check key="SS_FACING" text="Facing off-side" />
+          <key key="SS_DIAG"  value="2606" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1874,7 +1874,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="Bespoke park sign" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
@@ -1918,7 +1918,7 @@
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
           <key key="SS_FACING" value="False" />
-          <key key="SS_DIAG"  value="606/ 609 L" />
+          <key key="SS_DIAG"  value="Greenway" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
           <key key="SS_CIRC" value="False" />
