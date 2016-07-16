@@ -29,11 +29,8 @@
       <check key="CLT_FPTIME" text="Full-time / Part-time" />
       <text key="CLT_ACCESS" text="Access times" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <text key="ADATE" text="Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
-      <text key="ATIME" text="Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
-      <text key="ANAME" text="Name" values_from="android.provider.Settings.Secure.getString(MainActivity.this.getContentResolver(),android.provider.Settings.Secure.ANDROID_ID)"/>
-      <key key="SVDATE" value="00/00/2016" />
-      <text key="SVTIME" text="Survey Time" />
+      <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+      <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
       <key key="SVNAME" value="Surveyor" />
       <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
@@ -54,8 +51,8 @@
       <check key="ASL_FDRIGH"  text="Feeder lane on right" />
       <check key="ASL_SHARED" text="Shared nearside lane" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <key key="SVDATE" value="00/00/2016" />
-      <text key="SVTIME" text="Survey Time" />
+      <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+      <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
       <key key="SVNAME" value="Surveyor" />
       <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
@@ -75,8 +72,8 @@
       <check key="CRS_PEDEST"  text="Pedestrian Only Crossing" />
       <check key="CRS_LEVEL" text="Level Crossing" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <key key="SVDATE" value="00/00/2016" />
-      <text key="SVTIME" text="Survey Time" />
+      <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+      <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
       <key key="SVNAME" value="Surveyor" />
       <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
@@ -96,8 +93,8 @@
       <check key="RES_STEPS"  text="Steps" />
       <check key="RES_LIFT" text="Lift" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <key key="SVDATE" value="00/00/2016" />
-      <text key="SVTIME" text="Survey Time" />
+      <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+      <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
       <key key="SVNAME" value="Surveyor" />
       <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
@@ -144,8 +141,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -188,8 +185,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -232,8 +229,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -276,8 +273,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -320,8 +317,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -364,8 +361,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -408,8 +405,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -452,8 +449,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -496,8 +493,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -540,8 +537,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -584,8 +581,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -628,8 +625,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -672,8 +669,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -716,8 +713,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -760,8 +757,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -804,8 +801,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -848,8 +845,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -892,8 +889,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -936,8 +933,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -980,8 +977,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1024,8 +1021,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1068,8 +1065,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1112,8 +1109,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1156,8 +1153,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1200,8 +1197,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1244,8 +1241,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1288,8 +1285,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1332,8 +1329,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1376,8 +1373,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1420,8 +1417,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1464,8 +1461,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1508,8 +1505,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1552,8 +1549,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1596,8 +1593,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1640,8 +1637,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1684,8 +1681,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1728,8 +1725,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1772,8 +1769,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1816,8 +1813,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1860,8 +1857,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1904,8 +1901,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1948,8 +1945,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -1992,8 +1989,8 @@
           <check key="SS_GREENW" text="Greenway" />
           <text key="SS_ROUTEN" text="Route Number" />
           <text key="SS_ACCESS" text="Access times" />
-          <key key="SVDATE" value="00/00/2016" />
-          <text key="SVTIME" text="Survey Time" />
+          <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+          <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
           <key key="SVNAME" value="Surveyor" />
           <key key="QADATE" value="00/00/2016" />
           <key key="QANAME" value="Technician" />
@@ -2015,8 +2012,8 @@
       <check key="SIG_TWOSTG" text="Two stage turn" />
       <check key="SIG_GATE" text="Cycle gate" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <key key="SVDATE" value="00/00/2016" />
-      <text key="SVTIME" text="Survey Time" />
+      <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+      <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
       <key key="SVNAME" value="Surveyor" />
       <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
@@ -2040,8 +2037,8 @@
       <check key="TRF_NAROW" text="Carriageway narrowing" />
       <check key="TRF_CALM" text="Other traffic calming" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <key key="SVDATE" value="00/00/2016" />
-      <text key="SVTIME" text="Survey Time" />
+      <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+      <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
       <key key="SVNAME" value="Surveyor" />
       <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
@@ -2059,8 +2056,8 @@
       <check key="RST_STEPS" text="Steps" />
       <check key="RST_LIFT" text="Lift" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <key key="SVDATE" value="00/00/2016" />
-      <text key="SVTIME" text="Survey Time" />
+      <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+      <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
       <key key="SVNAME" value="Surveyor" />
       <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
@@ -2093,8 +2090,8 @@
       <text key="PRK_PROVIS" text="Provision" />
       <text key="PRK_CPT" text="Capacity" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <key key="SVDATE" value="00/00/2016" />
-      <text key="SVTIME" text="Survey Time" />
+      <text key="SVDATE" text="Survey Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+      <text key="SVTIME" text="Survey Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
       <key key="SVNAME" value="Surveyor" />
       <key key="QADATE" value="00/00/2016" />
       <key key="QANAME" value="Technician" />
