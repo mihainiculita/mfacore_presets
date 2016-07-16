@@ -40,7 +40,7 @@
       <text key="COMMENTS" text="Comments" />
     </item>
     
-    <item name="ASL" icon="ASL.png">
+    <item name="ASL" icon="/ASL.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="ASL" />
