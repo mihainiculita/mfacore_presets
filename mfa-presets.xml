@@ -1213,7 +1213,7 @@
           <key key="SS_ID" value="1" />
           <key key="SS_ROAD"  value="False" />
           <key key="SS_PATCH" value="False" />
-          <key key="SS_FACING" value="False" />
+          <check key="SS_FACING" text="Facing off-side" />
           <key key="SS_DIAG"  value="960.2" />
           <key key="SS_NOCYC" value="False" />
           <key key="SS_NOVEH" value="False" />
