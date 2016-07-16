@@ -106,7 +106,7 @@
   </group>
   
   <group name="Points" icon="Points.png">
-      <group name="Signal/Symbol" icon="signal.png">
+      <group name="Sign/Symbol" icon="sign.png">
         <item name="606/ 609 L" icon="606_609L.png">
           <key key="FEATURE_ID" value="1" />
           <key key="TYPE" value="606 / 609 L" />
