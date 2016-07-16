@@ -7,7 +7,7 @@
     version="0.1">
     
   <group name="Lines" icon="Lines.png">
-    <item name="Cycle Lane/Track" icon="Cycle_Lane.png">
+    <item name="Cycle Lane/Track" icon="https://raw.githubusercontent.com/mihainiculita/mfacore_presets/master/Cycle_Lane.png">
       <link href="http://wiki.openaviationmap.org/wiki/index.php/Navaid" />
       <key key="FEATURE_ID" value="1" />
       <key key="TYPE" value="Cycle Lane/Track" />
