@@ -29,9 +29,9 @@
       <check key="CLT_FPTIME" text="Full-time / Part-time" />
       <text key="CLT_ACCESS" text="Access times" />
       <combo key="COLOUR" values="None,Green,Red,Blue,Buff,Other" text="Colour" />
-      <key key="AAA_SVDATE" values_from="de.blau.android.presets.dateJOSMpreset" />
-      <key key="AAA_SVTIME" values_from="de.blau.android.presets.timeJOSMpreset" />
-      <key key="AAA_SVNAME" values_from="android.provider.Settings.Secure.getString(MainActivity.this.getContentResolver(),android.provider.Settings.Secure.ANDROID_ID)" />
+      <text key="ADATE" text="Date" values_from="de.blau.android.presets.dateJOSMpreset"/>
+      <text key="ATIME" text="Time" values_from="de.blau.android.presets.timeJOSMpreset"/>
+      <text key="ANAME" text="Name" values_from="android.provider.Settings.Secure.getString(MainActivity.this.getContentResolver(),android.provider.Settings.Secure.ANDROID_ID)"/>
       <key key="SVDATE" value="00/00/2016" />
       <text key="SVTIME" text="Survey Time" />
       <key key="SVNAME" value="Surveyor" />
